@@ -1,0 +1,96 @@
+1
+00:00:00,383 --> 00:00:00,385
+1. delay(1)
+
+2
+00:00:01,395 --> 00:00:01,397
+5. click(findTestObject("Templates/Add_Templates/Button_AddTemplate"))
+
+3
+00:00:03,922 --> 00:00:03,924
+9. delay(1)
+
+4
+00:00:04,938 --> 00:00:04,942
+13. setText(findTestObject("Templates/Add_Templates/Template_Name"), "Retina_Test")
+
+5
+00:00:08,354 --> 00:00:08,355
+17. delay(1)
+
+6
+00:00:09,363 --> 00:00:09,365
+21. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow"))
+
+7
+00:00:11,671 --> 00:00:11,672
+25. delay(1)
+
+8
+00:00:12,677 --> 00:00:12,678
+29. click(findTestObject("Templates/Add_Templates/div_HTMLRenderingservice"))
+
+9
+00:00:15,066 --> 00:00:15,068
+33. delay(1)
+
+10
+00:00:16,074 --> 00:00:16,075
+37. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd"))
+
+11
+00:00:48,977 --> 00:00:48,980
+41. delay(1)
+
+12
+00:00:49,987 --> 00:00:49,992
+45. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template"))
+
+13
+00:01:21,898 --> 00:01:21,899
+49. delay(1)
+
+14
+00:01:22,903 --> 00:01:22,904
+53. uploadFile(findTestObject("Templates/Add_Templates/Upload_Package"), "C:\Adzu\Template\Retina display 4.zip")
+
+15
+00:01:25,191 --> 00:01:25,193
+57. delay(2)
+
+16
+00:01:27,198 --> 00:01:27,200
+61. scrollToElement(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd"), 0)
+
+17
+00:01:29,422 --> 00:01:29,423
+65. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd"))
+
+18
+00:01:33,033 --> 00:01:33,034
+69. delay(1)
+
+19
+00:01:34,040 --> 00:01:34,041
+73. setText(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/input_Template_s2id_autogen22_search"), "Test123")
+
+20
+00:01:37,679 --> 00:01:37,680
+77. delay(1)
+
+21
+00:01:38,687 --> 00:01:38,689
+81. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/div_Test123"))
+
+22
+00:01:50,082 --> 00:01:50,084
+85. delay(1)
+
+23
+00:01:51,089 --> 00:01:51,090
+89. click(findTestObject("Templates/Add_Templates/Button_Save"))
+
+24
+00:01:53,523 --> 00:01:53,524
+93. delay(1)
+

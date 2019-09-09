@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Add_Template variable,Template and Material",Chrome 76.0.3809.100,,,2019-09-03 12:15:05,2019-09-03 12:16:33,1m - 27.608s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Chrome 76.0.3809.100,Login in the application and check user element text,,2019-09-03 12:15:06,2019-09-03 12:15:38,31.973s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.100,,,2019-09-03 12:15:07,2019-09-03 12:15:16,8.579s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/#Admin/Materials/Templates"")",Chrome 76.0.3809.100,,,2019-09-03 12:15:16,2019-09-03 12:15:19,3.103s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Chrome 76.0.3809.100,,,2019-09-03 12:15:19,2019-09-03 12:15:25,5.913s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 76.0.3809.100,,,2019-09-03 12:15:25,2019-09-03 12:15:28,3.670s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Chrome 76.0.3809.100,,,2019-09-03 12:15:28,2019-09-03 12:15:31,2.963s,PASSED
+maximizeWindow(),Chrome 76.0.3809.100,,,2019-09-03 12:15:31,2019-09-03 12:15:33,2.161s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Chrome 76.0.3809.100,,,2019-09-03 12:15:33,2019-09-03 12:15:36,2.225s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Material and Template,Chrome 76.0.3809.100,,,2019-09-03 12:15:38,2019-09-03 12:15:48,10.694s,FAILED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Chrome 76.0.3809.100,,,2019-09-03 12:15:38,2019-09-03 12:15:40,2.279s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-09-03 12:15:40,2019-09-03 12:15:42,1.288s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials Templates""))",Chrome 76.0.3809.100,,,2019-09-03 12:15:42,2019-09-03 12:15:45,3.626s,FAILED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-09-03 12:15:45,2019-09-03 12:15:46,1.021s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,Chrome 76.0.3809.100,,,2019-09-03 12:15:48,2019-09-03 12:16:33,44.454s,FAILED
+"click(findTestObject(""Login/span_Satinder""))",Chrome 76.0.3809.100,,,2019-09-03 12:15:49,2019-09-03 12:15:51,2.324s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 12:15:51,2019-09-03 12:15:52,1.083s,PASSED
+"click(findTestObject(""Login/Logout""))",Chrome 76.0.3809.100,,,2019-09-03 12:15:52,2019-09-03 12:15:55,2.450s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 12:15:55,2019-09-03 12:15:56,1.010s,PASSED
+"click(findTestObject(""Login/Ok Button in Confirmation""))",Chrome 76.0.3809.100,,,2019-09-03 12:15:56,2019-09-03 12:16:28,31.932s,FAILED
+waitForPageLoad(1),Chrome 76.0.3809.100,,,2019-09-03 12:16:28,2019-09-03 12:16:29,1.035s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,,2019-09-03 12:16:29,2019-09-03 12:16:31,1.865s,PASSED

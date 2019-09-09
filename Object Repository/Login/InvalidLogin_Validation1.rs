@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InvalidLogin_Validation1</name>
+   <tag></tag>
+   <elementGuidId>01da7add-ed95-42e3-84e6-88e6e3beb92c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;body&quot;]/div[3]/div/div/div[1]/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]/div/form/fieldset/div[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[data-qa-id='Login_Error_InvalidCredentials']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

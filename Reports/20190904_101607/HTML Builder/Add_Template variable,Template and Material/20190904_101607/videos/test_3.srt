@@ -1,0 +1,68 @@
+1
+00:00:00,402 --> 00:00:00,403
+1. delay(1)
+
+2
+00:00:01,404 --> 00:00:01,407
+5. click(findTestObject("Templates/Add_Templates/Button_AddTemplate"))
+
+3
+00:00:03,945 --> 00:00:03,947
+9. delay(1)
+
+4
+00:00:04,954 --> 00:00:04,957
+13. setText(findTestObject("Templates/Add_Templates/Template_Name"), "Retina_Test")
+
+5
+00:00:08,441 --> 00:00:08,444
+17. delay(1)
+
+6
+00:00:09,447 --> 00:00:09,449
+21. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow"))
+
+7
+00:00:11,770 --> 00:00:11,771
+25. delay(1)
+
+8
+00:00:12,783 --> 00:00:12,784
+29. click(findTestObject("Templates/Add_Templates/div_HTMLRenderingservice"))
+
+9
+00:00:15,118 --> 00:00:15,120
+33. delay(1)
+
+10
+00:00:16,128 --> 00:00:16,130
+37. click(findTestObject("Templates/Add_Templates/TemplateType_dd"))
+
+11
+00:00:48,212 --> 00:00:48,216
+41. delay(1)
+
+12
+00:00:49,221 --> 00:00:49,222
+45. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template"))
+
+13
+00:00:51,448 --> 00:00:51,450
+49. delay(1)
+
+14
+00:00:52,457 --> 00:00:52,457
+53. uploadFile(findTestObject("Templates/Add_Templates/Upload_Package"), "C:\Adzu\Template\Retina display 4.zip")
+
+15
+00:00:54,668 --> 00:00:54,672
+57. delay(2)
+
+16
+00:00:56,677 --> 00:00:56,679
+61. scrollToElement(findTestObject("Templates/Add_Templates/Variable_dd_image"), 0)
+
+17
+00:01:28,656 --> 00:01:28,670
+65. click(findTestObject("Templates/Add_Templates/Variable_dd_image"))
+

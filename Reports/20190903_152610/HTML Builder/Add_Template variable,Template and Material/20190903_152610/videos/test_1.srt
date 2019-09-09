@@ -1,0 +1,16 @@
+1
+00:00:00,700 --> 00:00:00,708
+1. openBrowser("")
+
+2
+00:00:09,922 --> 00:00:09,925
+5. navigateToUrl("https://bt.adzu4-staging.codeworldwide.com/#Admin/Materials/Templates")
+
+3
+00:00:11,982 --> 00:00:11,985
+9. setText(findTestObject("Login/login_username"), "satinder.gandhi@codeworldwide.com")
+
+4
+00:00:44,652 --> 00:00:44,655
+13. setEncryptedText(findTestObject("Login/login_password"), "yfq/9fVkW5+QvfzWq38qvg==")
+

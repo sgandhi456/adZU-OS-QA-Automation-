@@ -1,0 +1,92 @@
+1
+00:00:00,390 --> 00:00:00,392
+1. delay(0)
+
+2
+00:00:00,428 --> 00:00:00,434
+5. click(findTestObject("Material/Delete Material/Menu_MaterialAction"))
+
+3
+00:00:00,654 --> 00:00:00,656
+9. delay(1)
+
+4
+00:00:01,663 --> 00:00:01,664
+13. click(findTestObject("Material/Design Material/MenuOption_Design"))
+
+5
+00:00:01,894 --> 00:00:01,897
+17. click(findTestObject("Material/Design Material/Add_Customisation Steps"))
+
+6
+00:00:03,436 --> 00:00:03,437
+21. delay(1)
+
+7
+00:00:04,443 --> 00:00:04,445
+25. setText(findTestObject("CustomisationsStep_Name"), "Image")
+
+8
+00:00:04,704 --> 00:00:04,705
+29. delay(1)
+
+9
+00:00:05,713 --> 00:00:05,716
+33. click(findTestObject("Material/Design Material/button_ContentEditor"))
+
+10
+00:00:06,456 --> 00:00:06,460
+37. delay(1)
+
+11
+00:00:07,461 --> 00:00:07,466
+41. setText(findTestObject("Material/Design Material/ImageEditor_Name"), "Asset Image")
+
+12
+00:00:07,784 --> 00:00:07,786
+45. click(findTestObject("Material/Design Material/Button_SelectVariables"))
+
+13
+00:00:39,520 --> 00:00:39,520
+49. delay(1)
+
+14
+00:00:40,537 --> 00:00:40,542
+53. click(findTestObject("Material/Design Material/span_Retina_Test Retina_Test_k-checkbox-label"))
+
+15
+00:01:12,148 --> 00:01:12,150
+57. delay(1)
+
+16
+00:01:13,159 --> 00:01:13,159
+61. click(findTestObject("Material/Design Material/button_Save_templatevarable"))
+
+17
+00:01:44,972 --> 00:01:44,972
+65. delay(1)
+
+18
+00:01:46,113 --> 00:01:46,115
+69. click(findTestObject("Material/Design Material/dropdown_AssetGroup"))
+
+19
+00:02:17,747 --> 00:02:17,748
+73. delay(1)
+
+20
+00:02:18,753 --> 00:02:18,755
+77. click(findTestObject("Material/Design Material/AssetGroup_Option"))
+
+21
+00:02:50,374 --> 00:02:50,376
+81. click(findTestObject("Material/Design Material/Button_SaveCustomisationStep"))
+
+22
+00:03:21,859 --> 00:03:21,861
+85. click(findTestObject("Material/Design Material/Material_Design_CustomSize"))
+
+23
+00:03:53,497 --> 00:03:53,498
+89. click(findTestObject("Material/Design Material/button_design_Save"))
+

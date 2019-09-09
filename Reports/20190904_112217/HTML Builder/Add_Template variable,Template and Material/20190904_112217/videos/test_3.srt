@@ -1,0 +1,16 @@
+1
+00:00:00,360 --> 00:00:00,360
+1. delay(1)
+
+2
+00:00:01,414 --> 00:00:01,417
+5. click(findTestObject("Templates/Open Templates/Burger Menu"))
+
+3
+00:00:03,676 --> 00:00:03,678
+9. click(findTestObject("Templates/Open Templates/Menu_Templates"))
+
+4
+00:00:06,017 --> 00:00:06,018
+13. delay(1)
+

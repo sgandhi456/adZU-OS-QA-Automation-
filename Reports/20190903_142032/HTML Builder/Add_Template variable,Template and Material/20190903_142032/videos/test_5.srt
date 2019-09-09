@@ -1,0 +1,24 @@
+1
+00:00:00,642 --> 00:00:00,643
+1. delay(1)
+
+2
+00:00:01,645 --> 00:00:01,647
+5. click(findTestObject("Templates/Add_Templates/Button_AddTemplate"))
+
+3
+00:00:04,279 --> 00:00:04,280
+9. delay(1)
+
+4
+00:00:05,288 --> 00:00:05,289
+13. setText(findTestObject("Templates/Add_Templates/Template_Name"), "Retina_Test")
+
+5
+00:00:37,146 --> 00:00:37,147
+17. delay(1)
+
+6
+00:00:38,153 --> 00:00:38,154
+21. click(findTestObject("Templates/Add_Templates/Template_Rendrer_dd"))
+

@@ -1,0 +1,72 @@
+1
+00:00:00,650 --> 00:00:00,651
+1. delay(1)
+
+2
+00:00:01,685 --> 00:00:01,689
+5. click(findTestObject("Material/Add Material/Button_Add_Material"))
+
+3
+00:00:04,954 --> 00:00:04,955
+9. waitForPageLoad(1)
+
+4
+00:00:05,975 --> 00:00:05,977
+13. setText(findTestObject("Material/Add Material/Text_UniqueName"), "Material_Test")
+
+5
+00:00:09,158 --> 00:00:09,160
+17. waitForElementPresent(findTestObject("Material/Add Material/dd_MediaChannel_Text"), 1)
+
+6
+00:00:10,216 --> 00:00:10,220
+21. click(findTestObject("Material/Add Material/dd_MediaChannel_Text"))
+
+7
+00:00:13,005 --> 00:00:13,008
+25. delay(1)
+
+8
+00:00:14,017 --> 00:00:14,021
+29. click(findTestObject("Material/Add Material/div_Online"))
+
+9
+00:00:16,793 --> 00:00:16,795
+33. delay(1)
+
+10
+00:00:17,806 --> 00:00:17,809
+37. scrollToElement(findTestObject("Material/Add Material/Thumbnail Image"), 0)
+
+11
+00:00:19,923 --> 00:00:19,925
+41. delay(1)
+
+12
+00:00:20,936 --> 00:00:20,937
+45. uploadFile(findTestObject("Material/Add Material/Thumbnail Image"), "C:\Adzu\ab.jpg")
+
+13
+00:00:23,214 --> 00:00:23,216
+49. delay(3)
+
+14
+00:00:26,224 --> 00:00:26,227
+53. click(findTestObject("Material/Add Material/Button_AddExistingTemplate"))
+
+15
+00:00:29,831 --> 00:00:29,833
+57. delay(2)
+
+16
+00:00:31,842 --> 00:00:31,844
+61. setText(findTestObject("Material/Add Material/Text_SearchTemplate"), "Retina_Test")
+
+17
+00:00:35,013 --> 00:00:35,015
+65. delay(1)
+
+18
+00:00:36,024 --> 00:00:36,025
+69. click(findTestObject("Material/Add Material/Grid_TemplateRow"))
+

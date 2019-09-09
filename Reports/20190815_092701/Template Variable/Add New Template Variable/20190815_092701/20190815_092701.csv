@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add New Template Variable,Chrome 76.0.3809.100,,,2019-08-15 09:27:05,2019-08-15 09:28:52,1m - 46.126s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Chrome 76.0.3809.100,Login in the application and check user element text,,2019-08-15 09:27:06,2019-08-15 09:27:39,33.471s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.100,,,2019-08-15 09:27:07,2019-08-15 09:27:17,9.455s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/#Admin/Materials/Templates"")",Chrome 76.0.3809.100,,,2019-08-15 09:27:17,2019-08-15 09:27:19,2.171s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Chrome 76.0.3809.100,,,2019-08-15 09:27:19,2019-08-15 09:27:26,7.134s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 76.0.3809.100,,,2019-08-15 09:27:26,2019-08-15 09:27:30,3.858s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Chrome 76.0.3809.100,,,2019-08-15 09:27:30,2019-08-15 09:27:33,3.111s,PASSED
+maximizeWindow(),Chrome 76.0.3809.100,,,2019-08-15 09:27:33,2019-08-15 09:27:35,2.212s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Chrome 76.0.3809.100,,,2019-08-15 09:27:35,2019-08-15 09:27:37,2.272s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Material and Template,Chrome 76.0.3809.100,,,2019-08-15 09:27:39,2019-08-15 09:27:51,11.576s,PASSED
+"waitForElementVisible(findTestObject(""Main Menu/Create Menu/a_Create""), 1)",Chrome 76.0.3809.100,,,2019-08-15 09:27:40,2019-08-15 09:27:42,2.269s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Chrome 76.0.3809.100,,,2019-08-15 09:27:42,2019-08-15 09:27:45,2.365s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-08-15 09:27:45,2019-08-15 09:27:46,1.110s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials  Templates""))",Chrome 76.0.3809.100,,,2019-08-15 09:27:46,2019-08-15 09:27:48,2.288s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-08-15 09:27:48,2019-08-15 09:27:49,1.029s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Template Variable,Chrome 76.0.3809.100,,,2019-08-15 09:27:51,2019-08-15 09:28:04,13.413s,PASSED
+maximizeWindow(),Chrome 76.0.3809.100,,,2019-08-15 09:27:51,2019-08-15 09:27:52,1.019s,PASSED
+waitForPageLoad(10),Chrome 76.0.3809.100,,,2019-08-15 09:27:52,2019-08-15 09:27:53,1.032s,PASSED
+"waitForElementVisible(findTestObject(""Main Menu/Create Menu/a_Create""), 10)",Chrome 76.0.3809.100,,,2019-08-15 09:27:53,2019-08-15 09:27:56,2.314s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Chrome 76.0.3809.100,,,2019-08-15 09:27:56,2019-08-15 09:27:58,2.272s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-08-15 09:27:58,2019-08-15 09:27:59,1.021s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials  Templates""))",Chrome 76.0.3809.100,,,2019-08-15 09:27:59,2019-08-15 09:28:01,2.251s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-08-15 09:28:01,2019-08-15 09:28:02,1.027s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Save_template_variables,Chrome 76.0.3809.100,,,2019-08-15 09:28:04,2019-08-15 09:28:37,32.954s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-08-15 09:28:05,2019-08-15 09:28:07,2.047s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/button_Add Variable""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:07,2019-08-15 09:28:09,2.501s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-08-15 09:28:09,2019-08-15 09:28:10,1.021s,PASSED
+"setText(findTestObject(""Template_Variables/Add_TemplateVariable/input_Unique Name_form-control""), ""Test123"")",Chrome 76.0.3809.100,,,2019-08-15 09:28:10,2019-08-15 09:28:14,3.395s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-15 09:28:14,2019-08-15 09:28:15,1.007s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/span_Please select""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:15,2019-08-15 09:28:17,2.332s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-15 09:28:17,2019-08-15 09:28:18,1.010s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/Image_Template_Type""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:18,2019-08-15 09:28:20,2.332s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-15 09:28:20,2019-08-15 09:28:21,1.014s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/DataType_dd_image""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:21,2019-08-15 09:28:24,2.299s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-15 09:28:24,2019-08-15 09:28:25,1.008s,PASSED
+"setText(findTestObject(""Template_Variables/Add_TemplateVariable/input_Image_s2id_autogen63_search""), ""Image"")",Chrome 76.0.3809.100,,,2019-08-15 09:28:25,2019-08-15 09:28:28,3.375s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/Data_Type_Option""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:28,2019-08-15 09:28:31,2.509s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/button_Save""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:31,2019-08-15 09:28:33,2.347s,PASSED
+"getText(findTestObject(""Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue""), STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-15 09:28:33,2019-08-15 09:28:35,2.246s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,Chrome 76.0.3809.100,,,2019-08-15 09:28:37,2019-08-15 09:28:52,14.194s,PASSED
+"click(findTestObject(""Login/span_Satinder""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:38,2019-08-15 09:28:40,2.221s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-15 09:28:40,2019-08-15 09:28:41,1.010s,PASSED
+"click(findTestObject(""Login/Logout""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:41,2019-08-15 09:28:43,2.252s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-15 09:28:43,2019-08-15 09:28:44,1.009s,PASSED
+"click(findTestObject(""Login/Ok Button in Confirmation""))",Chrome 76.0.3809.100,,,2019-08-15 09:28:44,2019-08-15 09:28:47,2.395s,PASSED
+waitForPageLoad(1),Chrome 76.0.3809.100,,,2019-08-15 09:28:47,2019-08-15 09:28:48,1.018s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,,2019-08-15 09:28:48,2019-08-15 09:28:50,1.889s,PASSED

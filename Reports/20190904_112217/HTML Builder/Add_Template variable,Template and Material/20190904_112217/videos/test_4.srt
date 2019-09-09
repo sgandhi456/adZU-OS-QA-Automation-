@@ -1,0 +1,40 @@
+1
+00:00:00,453 --> 00:00:00,456
+1. delay(1)
+
+2
+00:00:01,470 --> 00:00:01,473
+5. click(findTestObject("Templates/Add_Templates/Button_AddTemplate"))
+
+3
+00:00:03,974 --> 00:00:03,975
+9. delay(1)
+
+4
+00:00:04,982 --> 00:00:04,984
+13. setText(findTestObject("Templates/Add_Templates/Template_Name"), "Retina_Test")
+
+5
+00:00:08,443 --> 00:00:08,445
+17. delay(1)
+
+6
+00:00:09,450 --> 00:00:09,452
+21. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow"))
+
+7
+00:00:11,830 --> 00:00:11,831
+25. delay(1)
+
+8
+00:00:12,837 --> 00:00:12,839
+29. click(findTestObject("Templates/Add_Templates/div_HTMLRenderingservice"))
+
+9
+00:00:15,180 --> 00:00:15,182
+33. delay(1)
+
+10
+00:00:16,189 --> 00:00:16,191
+37. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd"))
+

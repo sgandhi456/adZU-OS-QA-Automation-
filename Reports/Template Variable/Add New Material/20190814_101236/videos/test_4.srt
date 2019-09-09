@@ -1,0 +1,28 @@
+1
+00:00:00,496 --> 00:00:00,497
+1. click(findTestObject("Page_Base/Home Page/Page_Base/span_Satinder"))
+
+2
+00:00:02,879 --> 00:00:02,881
+5. delay(1)
+
+3
+00:00:03,892 --> 00:00:03,893
+9. click(findTestObject("Login/Logout"))
+
+4
+00:00:06,392 --> 00:00:06,396
+13. delay(1)
+
+5
+00:00:07,404 --> 00:00:07,407
+17. click(findTestObject("Login/Ok Button in Confirmation"))
+
+6
+00:00:09,743 --> 00:00:09,744
+21. waitForPageLoad(1)
+
+7
+00:00:10,781 --> 00:00:10,783
+25. closeBrowser()
+

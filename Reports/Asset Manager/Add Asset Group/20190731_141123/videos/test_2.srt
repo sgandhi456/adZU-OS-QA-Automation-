@@ -1,0 +1,16 @@
+1
+00:00:00,340 --> 00:00:00,341
+1. waitForElementPresent(findTestObject("Asset Group/Open Asset Group/a_Admin"), 1)
+
+2
+00:00:01,392 --> 00:00:01,394
+5. click(findTestObject("Asset Group/a_Admin"))
+
+3
+00:00:02,551 --> 00:00:02,552
+9. waitForElementPresent(findTestObject("Asset Group/Open Asset Group/Asset Manager"), 1)
+
+4
+00:00:04,090 --> 00:00:04,091
+13. click(findTestObject("Asset Group/Open Asset Group/Asset Manager"))
+

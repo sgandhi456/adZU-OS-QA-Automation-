@@ -1,0 +1,40 @@
+1
+00:00:00,358 --> 00:00:00,359
+1. delay(0)
+
+2
+00:00:00,360 --> 00:00:00,360
+5. click(findTestObject("Material/Delete Material/Menu_MaterialAction"))
+
+3
+00:00:02,645 --> 00:00:02,646
+9. delay(1)
+
+4
+00:00:03,654 --> 00:00:03,654
+13. click(findTestObject("Material/Design Material/MenuOption_Design"))
+
+5
+00:00:05,983 --> 00:00:05,984
+17. click(findTestObject("Material/Design Material/Add_Customisation Steps"))
+
+6
+00:00:08,443 --> 00:00:08,445
+21. delay(1)
+
+7
+00:00:09,449 --> 00:00:09,450
+25. setText(findTestObject("CustomisationsStep_Name"), "Image")
+
+8
+00:00:12,863 --> 00:00:12,864
+29. click(findTestObject("Material/Design Material/Page_Material Designer  BaseTenants/button_Add Banner_Image Editor                                        Banner_Image"))
+
+9
+00:00:16,548 --> 00:00:16,549
+33. setText(findTestObject("Material/Design Material/ImageEditor_Name"), "Asset Image")
+
+10
+00:00:20,252 --> 00:00:20,254
+37. click(findTestObject("Material/Design Material/Button_SelectVariables"))
+

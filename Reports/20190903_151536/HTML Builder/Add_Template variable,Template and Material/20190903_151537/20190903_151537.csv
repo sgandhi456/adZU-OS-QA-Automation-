@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Add_Template variable,Template and Material",Chrome 76.0.3809.100,,,2019-09-03 15:15:41,2019-09-03 15:16:33,52.582s,INCOMPLETE
+,,,,,,,
+Test Cases/Template Variables/Open Material and Template,Chrome 76.0.3809.100,,,2019-09-03 15:15:41,2019-09-03 15:15:49,8.207s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Chrome 76.0.3809.100,,,2019-09-03 15:15:42,2019-09-03 15:15:46,3.957s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-09-03 15:15:46,2019-09-03 15:15:47,0.379s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials Templates""))",Chrome 76.0.3809.100,,,2019-09-03 15:15:47,2019-09-03 15:15:47,0.581s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-09-03 15:15:47,2019-09-03 15:15:47,0.094s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Save_template_variables,Chrome 76.0.3809.100,,,2019-09-03 15:15:49,2019-09-03 15:16:33,43.809s,FAILED
+delay(2),Chrome 76.0.3809.100,,,2019-09-03 15:15:50,2019-09-03 15:15:52,2.094s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/button_Add Variable""))",Chrome 76.0.3809.100,,,2019-09-03 15:15:52,2019-09-03 15:15:53,0.612s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-09-03 15:15:53,2019-09-03 15:15:53,0.078s,PASSED
+"setText(findTestObject(""Template_Variables/Add_TemplateVariable/input_Unique Name_form-control""), ""Test123"")",Chrome 76.0.3809.100,,,2019-09-03 15:15:53,2019-09-03 15:15:53,0.560s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:15:53,2019-09-03 15:15:54,1.008s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/a_Please select""))",Chrome 76.0.3809.100,,,2019-09-03 15:15:54,2019-09-03 15:15:55,0.295s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:15:55,2019-09-03 15:15:56,1.009s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/Image_Template_Type""))",Chrome 76.0.3809.100,,,2019-09-03 15:15:56,2019-09-03 15:15:56,0.293s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:15:56,2019-09-03 15:15:57,1.012s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/DataType_dd_image""))",Chrome 76.0.3809.100,,,2019-09-03 15:15:57,2019-09-03 15:15:57,0.272s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:15:57,2019-09-03 15:15:58,1.011s,PASSED
+"selectOptionByLabel(findTestObject(""Template_Variables/Add_TemplateVariable/Data_Type_Option""), ""Banner_Image"", false)",Chrome 76.0.3809.100,,,2019-09-03 15:15:58,2019-09-03 15:16:30,31.783s,FAILED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/button_Save""))",Chrome 76.0.3809.100,,,2019-09-03 15:16:30,2019-09-03 15:16:31,0.698s,FAILED
+"getText(findTestObject(""Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue""), STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-03 15:16:31,2019-09-03 15:16:31,0.258s,PASSED

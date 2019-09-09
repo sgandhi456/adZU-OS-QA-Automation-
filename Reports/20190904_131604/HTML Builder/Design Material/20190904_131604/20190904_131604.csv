@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Design Material,Chrome 76.0.3809.132,,,2019-09-04 13:16:09,2019-09-04 13:17:08,59.654s,INCOMPLETE
+,,,,,,,
+Test Cases/Materials/Search Material,Chrome 76.0.3809.132,,,2019-09-04 13:16:09,2019-09-04 13:16:21,11.359s,PASSED
+"waitForElementPresent(findTestObject(""Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle""), 1)",Chrome 76.0.3809.132,,,2019-09-04 13:16:11,2019-09-04 13:16:14,3.495s,PASSED
+"click(findTestObject(""Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle""))",Chrome 76.0.3809.132,,,2019-09-04 13:16:14,2019-09-04 13:16:15,0.508s,PASSED
+"waitForElementPresent(findTestObject(""Material/Search Material/Text_SearchMaterial""), 1)",Chrome 76.0.3809.132,,,2019-09-04 13:16:15,2019-09-04 13:16:15,0.449s,PASSED
+"setText(findTestObject(""Material/Search Material/Text_SearchMaterial""), ""Material_Test"")",Chrome 76.0.3809.132,,,2019-09-04 13:16:15,2019-09-04 13:16:16,0.913s,PASSED
+"waitForElementVisible(findTestObject(""Template_Variables/Search_TemplateVariables/Template_Variable_Hide_Button""), 1)",Chrome 76.0.3809.132,,,2019-09-04 13:16:16,2019-09-04 13:16:17,1.126s,PASSED
+"click(findTestObject(""Template_Variables/Search_TemplateVariables/Template_Variable_Hide_Button""))",Chrome 76.0.3809.132,,,2019-09-04 13:16:17,2019-09-04 13:16:18,0.530s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 13:16:18,2019-09-04 13:16:19,1.068s,PASSED
+,,,,,,,
+Test Cases/Materials/Design Material,Chrome 76.0.3809.132,,,2019-09-04 13:16:21,2019-09-04 13:17:08,47.753s,FAILED
+delay(0),Chrome 76.0.3809.132,,,2019-09-04 13:16:21,2019-09-04 13:16:21,0.002s,PASSED
+"click(findTestObject(""Material/Delete Material/Menu_MaterialAction""))",Chrome 76.0.3809.132,,,2019-09-04 13:16:21,2019-09-04 13:16:21,0.280s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 13:16:21,2019-09-04 13:16:23,1.008s,PASSED
+"click(findTestObject(""Material/Design Material/MenuOption_Design""))",Chrome 76.0.3809.132,,,2019-09-04 13:16:23,2019-09-04 13:16:23,0.314s,PASSED
+"click(findTestObject(""Material/Design Material/Add_Customisation Steps""))",Chrome 76.0.3809.132,,,2019-09-04 13:16:23,2019-09-04 13:16:24,1.279s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 13:16:24,2019-09-04 13:16:25,1.010s,PASSED
+"setText(findTestObject(""CustomisationsStep_Name""), ""Image"")",Chrome 76.0.3809.132,,,2019-09-04 13:16:25,2019-09-04 13:16:26,0.420s,PASSED
+"click(findTestObject(""Material/Design Material/button_ContentEditor""))",Chrome 76.0.3809.132,,,2019-09-04 13:16:26,2019-09-04 13:16:58,32.206s,FAILED
+"setText(findTestObject(""Material/Design Material/ImageEditor_Name""), ""Asset Image"")",Chrome 76.0.3809.132,,,2019-09-04 13:16:58,2019-09-04 13:16:58,0.518s,PASSED
+"click(findTestObject(""Material/Design Material/Button_SelectVariables""))",Chrome 76.0.3809.132,,,2019-09-04 13:16:58,2019-09-04 13:16:59,0.418s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 13:16:59,2019-09-04 13:17:00,1.011s,PASSED
+"click(findTestObject(""Material/Design Material/span_Retina_Test Retina_Test_k-checkbox-label""))",Chrome 76.0.3809.132,,,2019-09-04 13:17:00,2019-09-04 13:17:00,0.338s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 13:17:00,2019-09-04 13:17:01,1.011s,PASSED
+"click(findTestObject(""Material/Design Material/button_Save_templatevarable""))",Chrome 76.0.3809.132,,,2019-09-04 13:17:01,2019-09-04 13:17:01,0.339s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 13:17:01,2019-09-04 13:17:02,1.009s,PASSED
+"click(findTestObject(""Material/Design Material/dropdown_AssetGroup""))",Chrome 76.0.3809.132,,,2019-09-04 13:17:02,2019-09-04 13:17:03,0.383s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 13:17:03,2019-09-04 13:17:04,1.007s,PASSED
+"click(findTestObject(""Material/Design Material/AssetGroup_Option""))",Chrome 76.0.3809.132,,,2019-09-04 13:17:04,2019-09-04 13:17:04,0.611s,PASSED
+"click(findTestObject(""Material/Design Material/Button_SaveCustomisationStep""))",Chrome 76.0.3809.132,,,2019-09-04 13:17:04,2019-09-04 13:17:05,0.430s,PASSED
+"click(findTestObject(""Material/Design Material/Material_Design_CustomSize""))",Chrome 76.0.3809.132,,,2019-09-04 13:17:05,2019-09-04 13:17:06,1.115s,FAILED
+"click(findTestObject(""Material/Design Material/button_design_Save""))",Chrome 76.0.3809.132,,,2019-09-04 13:17:06,2019-09-04 13:17:06,0.343s,PASSED

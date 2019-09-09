@@ -1,0 +1,48 @@
+1
+00:00:00,452 --> 00:00:00,453
+1. delay(2)
+
+2
+00:00:02,520 --> 00:00:02,522
+5. click(findTestObject("Template_Variables/Add_TemplateVariable/button_Add Variable"))
+
+3
+00:00:05,085 --> 00:00:05,086
+9. waitForPageLoad(0)
+
+4
+00:00:06,114 --> 00:00:06,116
+13. setText(findTestObject("Template_Variables/Add_TemplateVariable/input_Unique Name_form-control"), "Test123")
+
+5
+00:00:09,470 --> 00:00:09,473
+17. delay(1)
+
+6
+00:00:10,483 --> 00:00:10,484
+21. click(findTestObject("Template_Variables/Add_TemplateVariable/a_Please select"))
+
+7
+00:00:12,922 --> 00:00:12,924
+25. delay(1)
+
+8
+00:00:13,930 --> 00:00:13,931
+29. click(findTestObject("Template_Variables/Add_TemplateVariable/Image_Template_Type"))
+
+9
+00:00:16,254 --> 00:00:16,255
+33. delay(1)
+
+10
+00:00:17,268 --> 00:00:17,269
+37. click(findTestObject("Template_Variables/Add_TemplateVariable/DataType_dd_image"))
+
+11
+00:00:49,149 --> 00:00:49,151
+41. delay(1)
+
+12
+00:00:50,151 --> 00:00:50,152
+45. setText(findTestObject("Template_Variables/Add_TemplateVariable/input_Image_s2id_autogen63_search"), "Image")
+

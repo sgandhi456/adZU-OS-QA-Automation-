@@ -1,0 +1,28 @@
+1
+00:00:00,382 --> 00:00:00,385
+1. waitForElementPresent(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle"), 1)
+
+2
+00:00:01,593 --> 00:00:01,595
+5. click(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle"))
+
+3
+00:00:03,958 --> 00:00:03,960
+9. waitForElementPresent(findTestObject("Material/Search Material/Text_SearchMaterial"), 1)
+
+4
+00:00:05,167 --> 00:00:05,168
+13. setText(findTestObject("Material/Search Material/Text_SearchMaterial"), "Material_Test1")
+
+5
+00:00:08,712 --> 00:00:08,713
+17. waitForElementVisible(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Hide_Button"), 1)
+
+6
+00:00:11,031 --> 00:00:11,032
+21. click(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Hide_Button"))
+
+7
+00:00:13,252 --> 00:00:13,253
+25. delay(1)
+

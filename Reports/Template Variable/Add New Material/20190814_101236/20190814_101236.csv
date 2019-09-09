@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add New Material,Firefox 67.0,,,2019-08-14 10:12:41,2019-08-14 10:14:29,1m - 48.028s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Firefox 67.0,Login in the application and check user element text,,2019-08-14 10:12:42,2019-08-14 10:13:23,41.205s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-08-14 10:12:44,2019-08-14 10:12:58,14.352s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/#"")",Firefox 67.0,,,2019-08-14 10:12:58,2019-08-14 10:13:01,2.517s,PASSED
+"waitForElementPresent(findTestObject(""Page_Base/Page_Base/login_username""), 15)",Firefox 67.0,,,2019-08-14 10:13:01,2019-08-14 10:13:06,4.963s,PASSED
+"setText(findTestObject(""Page_Base/Page_Base/login_username""), ""satinder.gandhi@codeworldwide.com"")",Firefox 67.0,,,2019-08-14 10:13:06,2019-08-14 10:13:09,3.596s,PASSED
+"waitForElementPresent(findTestObject(""Page_Base/Page_Base/login_password""), 0)",Firefox 67.0,,,2019-08-14 10:13:09,2019-08-14 10:13:10,1.081s,PASSED
+"setText(findTestObject(""Page_Base/Page_Base/login_password""), ""ADZU#os123"")",Firefox 67.0,,,2019-08-14 10:13:10,2019-08-14 10:13:14,3.291s,PASSED
+"click(findTestObject(""Login/LoginButton_STA""))",Firefox 67.0,,,2019-08-14 10:13:14,2019-08-14 10:13:16,2.419s,PASSED
+maximizeWindow(),Firefox 67.0,,,2019-08-14 10:13:16,2019-08-14 10:13:17,1.073s,PASSED
+"waitForElementPresent(findTestObject(""Page_Base/Home Page/Page_Base/span_Satinder""), 1)",Firefox 67.0,,,2019-08-14 10:13:17,2019-08-14 10:13:18,1.219s,PASSED
+"verifyElementText(findTestObject(""Page_Base/Home Page/Page_Base/span_Satinder""), ""Satinder"")",Firefox 67.0,,,2019-08-14 10:13:18,2019-08-14 10:13:20,2.148s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Material and Template,Firefox 67.0,,,2019-08-14 10:13:23,2019-08-14 10:13:35,11.903s,PASSED
+"waitForElementVisible(findTestObject(""Main Menu/Create Menu/a_Create""), 1)",Firefox 67.0,,,2019-08-14 10:13:23,2019-08-14 10:13:26,2.268s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Firefox 67.0,,,2019-08-14 10:13:26,2019-08-14 10:13:28,2.431s,PASSED
+waitForPageLoad(0),Firefox 67.0,,,2019-08-14 10:13:28,2019-08-14 10:13:29,1.183s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials  Templates""))",Firefox 67.0,,,2019-08-14 10:13:29,2019-08-14 10:13:32,2.243s,PASSED
+waitForPageLoad(0),Firefox 67.0,,,2019-08-14 10:13:32,2019-08-14 10:13:33,1.056s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Save_template_variables,Firefox 67.0,,,2019-08-14 10:13:35,2019-08-14 10:14:13,37.833s,FAILED
+delay(2),Firefox 67.0,,,2019-08-14 10:13:35,2019-08-14 10:13:38,2.071s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/button_Add Variable""))",Firefox 67.0,,,2019-08-14 10:13:38,2019-08-14 10:13:40,2.825s,PASSED
+waitForPageLoad(0),Firefox 67.0,,,2019-08-14 10:13:40,2019-08-14 10:13:41,1.028s,PASSED
+"setText(findTestObject(""Template_Variables/Add_TemplateVariable/input_Unique Name_form-control""), ""Test123"")",Firefox 67.0,,,2019-08-14 10:13:41,2019-08-14 10:13:45,3.130s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 10:13:45,2019-08-14 10:13:46,1.011s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/span_Please select""))",Firefox 67.0,,,2019-08-14 10:13:46,2019-08-14 10:13:48,2.842s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 10:13:48,2019-08-14 10:13:49,1.015s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/Image_Template_Type""))",Firefox 67.0,,,2019-08-14 10:13:49,2019-08-14 10:13:52,2.818s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 10:13:52,2019-08-14 10:13:53,1.012s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/DataType_dd_image""))",Firefox 67.0,,,2019-08-14 10:13:53,2019-08-14 10:13:56,2.801s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 10:13:56,2019-08-14 10:13:57,1.020s,PASSED
+"setText(findTestObject(""Template_Variables/Add_TemplateVariable/input_Image_s2id_autogen63_search""), ""Image"")",Firefox 67.0,,,2019-08-14 10:13:57,2019-08-14 10:14:02,4.671s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/Data_Type_Option""))",Firefox 67.0,,,2019-08-14 10:14:02,2019-08-14 10:14:04,2.763s,PASSED
+"click(findTestObject(""Template_Variables/Add_TemplateVariable/button_Save""))",Firefox 67.0,,,2019-08-14 10:14:04,2019-08-14 10:14:07,2.351s,PASSED
+"getText(findTestObject(""Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue""), STOP_ON_FAILURE)",Firefox 67.0,,,2019-08-14 10:14:07,2019-08-14 10:14:10,3.509s,FAILED
+,,,,,,,
+Test Cases/Application - Login/Logout,Firefox 67.0,,,2019-08-14 10:14:13,2019-08-14 10:14:29,16.701s,PASSED
+"click(findTestObject(""Page_Base/Home Page/Page_Base/span_Satinder""))",Firefox 67.0,,,2019-08-14 10:14:13,2019-08-14 10:14:16,2.384s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 10:14:16,2019-08-14 10:14:17,1.012s,PASSED
+"click(findTestObject(""Login/Logout""))",Firefox 67.0,,,2019-08-14 10:14:17,2019-08-14 10:14:19,2.501s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 10:14:19,2019-08-14 10:14:20,1.010s,PASSED
+"click(findTestObject(""Login/Ok Button in Confirmation""))",Firefox 67.0,,,2019-08-14 10:14:20,2019-08-14 10:14:22,2.338s,PASSED
+waitForPageLoad(1),Firefox 67.0,,,2019-08-14 10:14:22,2019-08-14 10:14:23,1.037s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-08-14 10:14:23,2019-08-14 10:14:27,3.629s,PASSED

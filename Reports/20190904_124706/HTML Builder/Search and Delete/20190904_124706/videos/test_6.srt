@@ -1,0 +1,8 @@
+1
+00:00:00,557 --> 00:00:00,558
+1. delay(1)
+
+2
+00:00:01,563 --> 00:00:01,564
+5. click(findTestObject("Template_Variables/Delete_Template_Variables/Template_Variable_Action Menu"))
+

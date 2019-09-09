@@ -1,0 +1,84 @@
+1
+00:00:00,433 --> 00:00:00,435
+1. delay(0)
+
+2
+00:00:00,436 --> 00:00:00,436
+5. click(findTestObject("Material/Delete Material/Menu_MaterialAction"))
+
+3
+00:00:02,816 --> 00:00:02,817
+9. delay(1)
+
+4
+00:00:03,823 --> 00:00:03,824
+13. click(findTestObject("Material/Design Material/MenuOption_Design"))
+
+5
+00:00:06,106 --> 00:00:06,108
+17. click(findTestObject("Material/Design Material/Add_Customisation Steps"))
+
+6
+00:00:08,533 --> 00:00:08,536
+21. delay(1)
+
+7
+00:00:09,544 --> 00:00:09,545
+25. setText(findTestObject("CustomisationsStep_Name"), "Image")
+
+8
+00:00:12,899 --> 00:00:12,900
+29. click(findTestObject("Material/Design Material/button_ContentEditor"))
+
+9
+00:00:16,586 --> 00:00:16,591
+33. setText(findTestObject("Material/Design Material/ImageEditor_Name"), "Asset Image")
+
+10
+00:00:19,999 --> 00:00:20,001
+37. click(findTestObject("Material/Design Material/Button_SelectVariables"))
+
+11
+00:00:25,816 --> 00:00:25,818
+41. delay(1)
+
+12
+00:00:26,825 --> 00:00:26,829
+45. click(findTestObject("Material/Design Material/span_Retina_Test Retina_Test_k-checkbox-label"))
+
+13
+00:00:29,223 --> 00:00:29,224
+49. delay(1)
+
+14
+00:00:30,232 --> 00:00:30,233
+53. click(findTestObject("Material/Design Material/button_Save_templatevarable"))
+
+15
+00:00:32,516 --> 00:00:32,517
+57. delay(1)
+
+16
+00:00:33,522 --> 00:00:33,523
+61. click(findTestObject("Material/Design Material/dropdown_AssetGroup"))
+
+17
+00:00:37,135 --> 00:00:37,135
+65. delay(1)
+
+18
+00:00:38,135 --> 00:00:38,136
+69. click(findTestObject("Material/Design Material/AssetGroup_Option"))
+
+19
+00:01:10,159 --> 00:01:10,160
+73. click(findTestObject("Material/Design Material/Button_SaveCustomisationStep"))
+
+20
+00:01:13,775 --> 00:01:13,776
+77. click(findTestObject("Material/Design Material/Material_Design_CustomSize"))
+
+21
+00:01:17,397 --> 00:01:17,398
+81. click(findTestObject("Material/Design Material/button_design_Save"))
+

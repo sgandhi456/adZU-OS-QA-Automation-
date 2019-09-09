@@ -1,0 +1,24 @@
+1
+00:00:00,369 --> 00:00:00,369
+1. delay(1)
+
+2
+00:00:01,369 --> 00:00:01,370
+5. click(findTestObject("Material/Add Material/Button_Add_Material"))
+
+3
+00:00:16,511 --> 00:00:16,512
+9. waitForPageLoad(1)
+
+4
+00:00:17,548 --> 00:00:17,550
+13. setText(findTestObject("Material/Add Material/Text_UniqueName"), "Material_Test")
+
+5
+00:00:21,284 --> 00:00:21,286
+17. waitForElementPresent(findTestObject("Material/Add Material/dd_MediaChannel_Text"), 1)
+
+6
+00:00:22,953 --> 00:00:22,955
+21. click(findTestObject("Material/Add Material/dd_MediaChannel_Text"))
+

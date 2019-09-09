@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - Logout,Firefox 67.0,,,2019-08-14 17:45:17,2019-08-14 17:46:53,1m - 36.126s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Firefox 67.0,Login in the application and check user element text,,2019-08-14 17:45:18,2019-08-14 17:46:38,1m - 19.732s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-08-14 17:45:19,2019-08-14 17:45:29,10.308s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/#Admin/Materials/Templates"")",Firefox 67.0,,,2019-08-14 17:45:29,2019-08-14 17:45:55,25.862s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Firefox 67.0,,,2019-08-14 17:45:55,2019-08-14 17:46:20,24.720s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Firefox 67.0,,,2019-08-14 17:46:20,2019-08-14 17:46:23,3.459s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Firefox 67.0,,,2019-08-14 17:46:23,2019-08-14 17:46:26,2.429s,PASSED
+maximizeWindow(),Firefox 67.0,,,2019-08-14 17:46:26,2019-08-14 17:46:27,1.034s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Firefox 67.0,,,2019-08-14 17:46:27,2019-08-14 17:46:35,8.582s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,Firefox 67.0,,,2019-08-14 17:46:38,2019-08-14 17:46:53,15.836s,PASSED
+"click(findTestObject(""Login/span_Satinder""))",Firefox 67.0,,,2019-08-14 17:46:38,2019-08-14 17:46:40,2.483s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 17:46:40,2019-08-14 17:46:41,1.059s,PASSED
+"click(findTestObject(""Login/Logout""))",Firefox 67.0,,,2019-08-14 17:46:41,2019-08-14 17:46:44,2.458s,PASSED
+delay(1),Firefox 67.0,,,2019-08-14 17:46:44,2019-08-14 17:46:45,1.008s,PASSED
+"click(findTestObject(""Login/Ok Button in Confirmation""))",Firefox 67.0,,,2019-08-14 17:46:45,2019-08-14 17:46:47,2.434s,PASSED
+waitForPageLoad(1),Firefox 67.0,,,2019-08-14 17:46:47,2019-08-14 17:46:49,1.209s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-08-14 17:46:49,2019-08-14 17:46:51,2.726s,PASSED

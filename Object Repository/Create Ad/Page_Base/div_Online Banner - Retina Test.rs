@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Online Banner - Retina Test</name>
+   <tag></tag>
+   <elementGuidId>38324288-7461-4dfd-b9dc-c07ff157a560</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='body']/main/div/div/div/div/div/div/div/div/div[3]/div/div/nest/div/div/div/div[2]/div/div/div[2]/div/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>attr: { title: $data.MediaChannelName + ' - ' + $data.General.DisplayName }, bsTooltip: '.material-view-container'</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>bottom</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-title</name>
+      <type>Main</type>
+      <value>Online Banner - Retina Test</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								Online Banner - Retina Test
+							</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body&quot;)/main[@class=&quot;page inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;page-container inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;plugin plugin-cms.page&quot;]/div[@class=&quot;widget inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[1]/div[@class=&quot;container-fluid material-gallery-page-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/nest[1]/div[@class=&quot;loadAndInject-loaded loadAndInject-initialized&quot;]/div[1]/div[@class=&quot;material-view-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;gallery-view-container dynamic-tile-view-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-3 gallery-item-container&quot;]/div[@class=&quot;gallery-item-box&quot;]/div[@class=&quot;gallery-item-name clearfix&quot;]/div[@class=&quot;name&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//body[@id='body']/main/div/div/div/div/div/div/div/div/div[3]/div/div/nest/div/div/div/div[2]/div/div/div[2]/div/div[3]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/div/div[3]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

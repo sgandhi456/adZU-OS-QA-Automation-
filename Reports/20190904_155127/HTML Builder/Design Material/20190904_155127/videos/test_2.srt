@@ -1,0 +1,92 @@
+1
+00:00:00,434 --> 00:00:00,436
+1. delay(0)
+
+2
+00:00:00,471 --> 00:00:00,471
+5. click(findTestObject("Material/Delete Material/Menu_MaterialAction"))
+
+3
+00:00:00,806 --> 00:00:00,808
+9. delay(1)
+
+4
+00:00:01,813 --> 00:00:01,815
+13. click(findTestObject("Material/Design Material/MenuOption_Design"))
+
+5
+00:00:02,071 --> 00:00:02,073
+17. click(findTestObject("Material/Design Material/Add_Customisation Steps"))
+
+6
+00:00:03,668 --> 00:00:03,670
+21. delay(1)
+
+7
+00:00:04,677 --> 00:00:04,678
+25. setText(findTestObject("CustomisationsStep_Name"), "Image")
+
+8
+00:00:04,939 --> 00:00:04,941
+29. scrollToElement(findTestObject("Material/Design Material/button_ContentEditor"), 0)
+
+9
+00:00:05,200 --> 00:00:05,202
+33. click(findTestObject("Material/Design Material/button_ContentEditor"))
+
+10
+00:00:05,820 --> 00:00:05,821
+37. delay(1)
+
+11
+00:00:06,827 --> 00:00:06,829
+41. setText(findTestObject("Material/Design Material/ImageEditor_Name"), "Asset Image")
+
+12
+00:00:07,243 --> 00:00:07,245
+45. click(findTestObject("Material/Design Material/Button_SelectVariables"))
+
+13
+00:00:07,671 --> 00:00:07,672
+49. delay(1)
+
+14
+00:00:08,678 --> 00:00:08,680
+53. click(findTestObject("Material/Design Material/span_Retina_Test Retina_Test_k-checkbox-label"))
+
+15
+00:00:08,980 --> 00:00:08,982
+57. delay(1)
+
+16
+00:00:09,986 --> 00:00:09,987
+61. click(findTestObject("Material/Design Material/button_Save_templatevarable"))
+
+17
+00:00:10,262 --> 00:00:10,264
+65. delay(1)
+
+18
+00:00:11,270 --> 00:00:11,271
+69. click(findTestObject("Material/Design Material/dropdown_AssetGroup"))
+
+19
+00:00:11,556 --> 00:00:11,557
+73. delay(1)
+
+20
+00:00:12,563 --> 00:00:12,564
+77. click(findTestObject("Material/Design Material/AssetGroup_Option"))
+
+21
+00:00:12,851 --> 00:00:12,853
+81. click(findTestObject("Material/Design Material/Button_SaveCustomisationStep"))
+
+22
+00:00:13,604 --> 00:00:13,606
+85. click(findTestObject("Material/Design Material/Material_Design_CustomSize"))
+
+23
+00:00:14,565 --> 00:00:14,566
+89. click(findTestObject("Material/Design Material/button_design_Save"))
+

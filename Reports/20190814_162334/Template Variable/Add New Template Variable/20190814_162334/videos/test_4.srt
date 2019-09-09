@@ -1,0 +1,40 @@
+1
+00:00:00,380 --> 00:00:00,383
+1. delay(1)
+
+2
+00:00:01,401 --> 00:00:01,403
+5. click(findTestObject("Material/Add Material/Button_Add_Material"))
+
+3
+00:00:04,175 --> 00:00:04,176
+9. waitForPageLoad(1)
+
+4
+00:00:05,202 --> 00:00:05,203
+13. setText(findTestObject("Material/Add Material/Text_UniqueName"), "Material_Test")
+
+5
+00:00:08,718 --> 00:00:08,719
+17. waitForElementPresent(findTestObject("Material/Add Material/dd_MediaChannel_Text"), 1)
+
+6
+00:00:09,944 --> 00:00:09,945
+21. click(findTestObject("Material/Add Material/dd_MediaChannel_Text"))
+
+7
+00:00:12,286 --> 00:00:12,287
+25. delay(1)
+
+8
+00:00:13,293 --> 00:00:13,295
+29. click(findTestObject("Material/Add Material/div_Online"))
+
+9
+00:00:15,741 --> 00:00:15,743
+33. delay(1)
+
+10
+00:00:16,749 --> 00:00:16,750
+37. scrollToElement(findTestObject("Material/Add Material/Thumbnail Image"), 0)
+

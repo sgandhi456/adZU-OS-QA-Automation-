@@ -1,0 +1,56 @@
+1
+00:00:00,401 --> 00:00:00,405
+1. delay(1)
+
+2
+00:00:01,437 --> 00:00:01,439
+5. click(findTestObject("Templates/Add_Templates/Button_AddTemplate"))
+
+3
+00:00:03,887 --> 00:00:03,888
+9. delay(1)
+
+4
+00:00:04,895 --> 00:00:04,896
+13. setText(findTestObject("Templates/Add_Templates/Template_Name"), "Retina_Test")
+
+5
+00:00:36,903 --> 00:00:36,904
+17. delay(1)
+
+6
+00:00:37,911 --> 00:00:37,912
+21. click(findTestObject("Templates/Add_Templates/Template_Rendrer_dd"))
+
+7
+00:01:09,798 --> 00:01:09,800
+25. delay(1)
+
+8
+00:01:10,807 --> 00:01:10,808
+29. click(findTestObject("Templates/Add_Templates/div_HTMLRenderingservice"))
+
+9
+00:01:42,686 --> 00:01:42,688
+33. delay(1)
+
+10
+00:01:43,692 --> 00:01:43,694
+37. click(findTestObject("Templates/Add_Templates/TemplateType_dd"))
+
+11
+00:02:15,589 --> 00:02:15,589
+41. delay(1)
+
+12
+00:02:16,598 --> 00:02:16,600
+45. click(findTestObject("Templates/Add_Templates/Select_TemplateType_Template"))
+
+13
+00:02:48,501 --> 00:02:48,501
+49. delay(1)
+
+14
+00:02:49,501 --> 00:02:49,503
+53. uploadFile(findTestObject("Templates/Add_Templates/Upload_Package"), "C:\Adzu\Template\Retina display 4.zip")
+

@@ -1,0 +1,12 @@
+1
+00:00:00,975 --> 00:00:00,985
+1. openBrowser("")
+
+2
+00:00:09,959 --> 00:00:09,961
+5. navigateToUrl("https://bt.adzu4-staging.codeworldwide.com/")
+
+3
+00:00:11,445 --> 00:00:11,447
+9. setText(findTestObject("Login/login_username"), "satinder.gandhi@codeworldwide.com")
+

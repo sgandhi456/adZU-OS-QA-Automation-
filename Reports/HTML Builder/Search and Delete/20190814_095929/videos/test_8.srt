@@ -1,0 +1,32 @@
+1
+00:00:00,610 --> 00:00:00,611
+1. delay(1)
+
+2
+00:00:01,628 --> 00:00:01,631
+5. click(findTestObject("Templates/Delete_Templates/Template_ActionMenu"))
+
+3
+00:00:01,948 --> 00:00:01,950
+9. delay(1)
+
+4
+00:00:02,958 --> 00:00:02,960
+13. click(findTestObject("Templates/Delete_Templates/Template_ActionMenu_Delete"))
+
+5
+00:00:03,312 --> 00:00:03,314
+17. delay(1)
+
+6
+00:00:04,322 --> 00:00:04,323
+21. click(findTestObject("Templates/Delete_Templates/Template_ActionMenu_Yesbutton"))
+
+7
+00:00:04,636 --> 00:00:04,637
+25. delay(1)
+
+8
+00:00:05,645 --> 00:00:05,648
+29. verifyElementText(findTestObject("Templates/Delete_Templates/Template_Deleted_Grid"), "")
+

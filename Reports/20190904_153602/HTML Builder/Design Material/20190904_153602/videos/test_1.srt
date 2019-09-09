@@ -1,0 +1,16 @@
+1
+00:00:00,840 --> 00:00:00,851
+1. waitForElementPresent(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle"), 1)
+
+2
+00:00:04,773 --> 00:00:04,779
+5. click(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle"))
+
+3
+00:00:37,074 --> 00:00:37,076
+9. waitForElementPresent(findTestObject("Material/Search Material/Text_SearchMaterial"), 1)
+
+4
+00:00:38,367 --> 00:00:38,369
+13. setText(findTestObject("Material/Search Material/Text_SearchMaterial"), "Material_Test")
+

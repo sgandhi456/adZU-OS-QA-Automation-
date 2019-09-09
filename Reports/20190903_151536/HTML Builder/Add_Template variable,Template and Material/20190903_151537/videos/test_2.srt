@@ -1,0 +1,56 @@
+1
+00:00:00,480 --> 00:00:00,483
+1. delay(2)
+
+2
+00:00:02,575 --> 00:00:02,578
+5. click(findTestObject("Template_Variables/Add_TemplateVariable/button_Add Variable"))
+
+3
+00:00:03,189 --> 00:00:03,195
+9. waitForPageLoad(0)
+
+4
+00:00:03,267 --> 00:00:03,270
+13. setText(findTestObject("Template_Variables/Add_TemplateVariable/input_Unique Name_form-control"), "Test123")
+
+5
+00:00:03,828 --> 00:00:03,830
+17. delay(1)
+
+6
+00:00:04,837 --> 00:00:04,838
+21. click(findTestObject("Template_Variables/Add_TemplateVariable/a_Please select"))
+
+7
+00:00:05,132 --> 00:00:05,135
+25. delay(1)
+
+8
+00:00:06,141 --> 00:00:06,144
+29. click(findTestObject("Template_Variables/Add_TemplateVariable/Image_Template_Type"))
+
+9
+00:00:06,435 --> 00:00:06,438
+33. delay(1)
+
+10
+00:00:07,448 --> 00:00:07,451
+37. click(findTestObject("Template_Variables/Add_TemplateVariable/DataType_dd_image"))
+
+11
+00:00:07,721 --> 00:00:07,722
+41. delay(1)
+
+12
+00:00:08,730 --> 00:00:08,735
+45. selectOptionByLabel(findTestObject("Template_Variables/Add_TemplateVariable/Data_Type_Option"), "Banner_Image", false)
+
+13
+00:00:40,516 --> 00:00:40,516
+49. click(findTestObject("Template_Variables/Add_TemplateVariable/button_Save"))
+
+14
+00:00:41,210 --> 00:00:41,216
+53. getText(findTestObject("Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue"), STOP_ON_FAILURE)
+

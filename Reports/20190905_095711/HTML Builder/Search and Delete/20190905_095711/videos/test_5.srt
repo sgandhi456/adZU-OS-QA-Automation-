@@ -1,0 +1,28 @@
+1
+00:00:00,366 --> 00:00:00,367
+1. delay(1)
+
+2
+00:00:01,369 --> 00:00:01,372
+5. click(findTestObject("Template_Variables/Delete_Template_Variables/Template_Variable_Action Menu"))
+
+3
+00:00:03,636 --> 00:00:03,637
+9. delay(1)
+
+4
+00:00:04,643 --> 00:00:04,645
+13. click(findTestObject("Template_Variables/Delete_Template_Variables/Template_Variable_Delete_Button"))
+
+5
+00:00:06,933 --> 00:00:06,935
+17. delay(1)
+
+6
+00:00:07,942 --> 00:00:07,944
+21. click(findTestObject("Template_Variables/Delete_Template_Variables/Template_Varibale_Ok_Button"))
+
+7
+00:00:10,251 --> 00:00:10,252
+25. True = verifyElementText(findTestObject("Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue"), "")
+

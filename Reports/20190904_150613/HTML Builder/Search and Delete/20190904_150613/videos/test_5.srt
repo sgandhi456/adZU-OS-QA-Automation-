@@ -1,0 +1,28 @@
+1
+00:00:00,465 --> 00:00:00,467
+1. delay(0)
+
+2
+00:00:00,471 --> 00:00:00,475
+5. click(findTestObject("Material/Delete Material/Menu_MaterialAction"))
+
+3
+00:00:02,821 --> 00:00:02,821
+9. delay(1)
+
+4
+00:00:03,830 --> 00:00:03,832
+13. click(findTestObject("Material/Delete Material/MenuOption_Delete"))
+
+5
+00:00:06,206 --> 00:00:06,206
+17. delay(1)
+
+6
+00:00:07,212 --> 00:00:07,213
+21. click(findTestObject("Material/Delete Material/Button_DeleteYES"))
+
+7
+00:00:09,580 --> 00:00:09,581
+25. delay(1)
+

@@ -1,0 +1,28 @@
+1
+00:00:00,315 --> 00:00:00,316
+1. delay(1)
+
+2
+00:00:01,365 --> 00:00:01,365
+5. click(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle"))
+
+3
+00:00:03,754 --> 00:00:03,756
+9. delay(1)
+
+4
+00:00:04,763 --> 00:00:04,766
+13. setText(findTestObject("Template_Variables/Search_TemplateVariables/TemplateVariable_Filter_Text"), "Test123")
+
+5
+00:00:08,179 --> 00:00:08,181
+17. delay(1)
+
+6
+00:00:09,187 --> 00:00:09,191
+21. click(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Hide_Button"))
+
+7
+00:00:11,449 --> 00:00:11,451
+25. delay(1)
+

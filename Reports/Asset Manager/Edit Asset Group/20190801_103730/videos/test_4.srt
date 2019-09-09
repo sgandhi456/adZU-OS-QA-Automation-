@@ -1,0 +1,28 @@
+1
+00:00:00,002 --> 00:00:00,003
+1. delay(1)
+
+2
+00:00:01,010 --> 00:00:01,012
+5. click(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle"))
+
+3
+00:00:04,662 --> 00:00:04,665
+9. delay(1)
+
+4
+00:00:05,670 --> 00:00:05,671
+13. setText(findTestObject("Material/Search Material/Text_SearchTemplate"), AssetGroup_Name)
+
+5
+00:00:09,213 --> 00:00:09,214
+17. delay(1)
+
+6
+00:00:10,219 --> 00:00:10,220
+21. click(findTestObject("Template_Variables/Search_TemplateVariables/Template_Variable_Hide_Button"))
+
+7
+00:00:13,758 --> 00:00:13,761
+25. delay(1)
+

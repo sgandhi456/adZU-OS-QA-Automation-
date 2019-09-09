@@ -1,0 +1,20 @@
+1
+00:00:00,477 --> 00:00:00,478
+1. waitForElementVisible(findTestObject("Main Menu/Create Menu/a_Create"), 1)
+
+2
+00:00:02,603 --> 00:00:02,605
+5. click(findTestObject("Main Menu/Create Menu/a_Create"))
+
+3
+00:00:04,982 --> 00:00:04,983
+9. waitForPageLoad(0)
+
+4
+00:00:06,127 --> 00:00:06,129
+13. click(findTestObject("Main Menu/Create Menu/span_Materials  Templates"))
+
+5
+00:00:08,304 --> 00:00:08,306
+17. waitForPageLoad(0)
+

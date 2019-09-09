@@ -1,0 +1,32 @@
+1
+00:00:00,381 --> 00:00:00,383
+1. delay(2)
+
+2
+00:00:02,429 --> 00:00:02,432
+5. click(findTestObject("Template_Variables/Add_TemplateVariable/button_Add Variable"))
+
+3
+00:00:04,940 --> 00:00:04,942
+9. waitForPageLoad(0)
+
+4
+00:00:05,963 --> 00:00:05,965
+13. setText(findTestObject("Template_Variables/Add_TemplateVariable/input_Unique Name_form-control"), "Test123")
+
+5
+00:00:09,272 --> 00:00:09,276
+17. delay(1)
+
+6
+00:00:10,284 --> 00:00:10,285
+21. click(findTestObject("Template_Variables/Add_TemplateVariable/span_Please select"))
+
+7
+00:00:42,148 --> 00:00:42,149
+25. delay(1)
+
+8
+00:00:43,168 --> 00:00:43,171
+29. click(findTestObject("Template_Variables/Add_TemplateVariable/Image_Template_Type"))
+

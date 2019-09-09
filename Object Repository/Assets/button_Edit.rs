@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit</name>
+   <tag></tag>
+   <elementGuidId>9c0c2a1f-5915-4cb1-8fe7-6d518b3b9c88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='body']/main/div/div/div/div/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>click: $root.edit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                Edit
+                            </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body&quot;)/main[@class=&quot;page inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;page-container inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;plugin plugin-assetManager&quot;]/div[@class=&quot;widget inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;adzu-plugins-admin-groups adzu-plugins-asset-management-asset-groups table-stretched-page&quot;]/div[@class=&quot;list-items&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-6 col-md-4 col-lg-3 col-xl-2 item-column&quot;]/div[@class=&quot;list-item&quot;]/div[@class=&quot;group-item-bottom&quot;]/div[@class=&quot;button-container&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//body[@id='body']/main/div/div/div/div/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AssetGroup_AutoTest_1553274198'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[3]/div/button</value>
+   </webElementXpaths>
+</WebElementEntity>

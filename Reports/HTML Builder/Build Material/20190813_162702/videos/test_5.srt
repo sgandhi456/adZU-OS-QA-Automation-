@@ -1,0 +1,56 @@
+1
+00:00:00,389 --> 00:00:00,390
+1. delay(0)
+
+2
+00:00:00,396 --> 00:00:00,397
+5. click(findTestObject("Material/Delete Material/Menu_MaterialAction"))
+
+3
+00:00:02,665 --> 00:00:02,668
+9. delay(1)
+
+4
+00:00:03,682 --> 00:00:03,685
+13. click(findTestObject("Material/Build Material/Menu_Build"))
+
+5
+00:00:05,958 --> 00:00:05,960
+17. delay(1)
+
+6
+00:00:06,967 --> 00:00:06,968
+21. click(findTestObject("Material/Build Material/FirstCustomisationStep_Button"))
+
+7
+00:00:14,068 --> 00:00:14,070
+25. delay(1)
+
+8
+00:00:15,075 --> 00:00:15,080
+29. setText(findTestObject("Material/Build Material/Text_AssetSearch"), "adzu")
+
+9
+00:00:18,207 --> 00:00:18,208
+33. sendKeys(findTestObject("Material/Build Material/Text_AssetSearch"), Keys.chord(ENTER))
+
+10
+00:00:20,333 --> 00:00:20,335
+37. click(findTestObject("Material/Build Material/Select_Image"), CONTINUE_ON_FAILURE)
+
+11
+00:00:40,784 --> 00:00:40,785
+41. click(findTestObject("Material/Build Material/Button_OK_Image"))
+
+12
+00:00:44,083 --> 00:00:44,086
+45. delay(1)
+
+13
+00:00:45,094 --> 00:00:45,098
+49. click(findTestObject("Material/Build Material/Button_Generate"))
+
+14
+00:00:48,272 --> 00:00:48,273
+53. acceptAlert()
+

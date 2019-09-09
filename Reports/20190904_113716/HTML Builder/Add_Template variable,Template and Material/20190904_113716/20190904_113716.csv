@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Add_Template variable,Template and Material",Chrome 76.0.3809.132,,,2019-09-04 11:37:20,2019-09-04 11:40:23,3m - 2.396s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Chrome 76.0.3809.132,Login in the application and check user element text,,2019-09-04 11:37:21,2019-09-04 11:37:53,32.208s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.132,,,2019-09-04 11:37:22,2019-09-04 11:37:31,8.583s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/"")",Chrome 76.0.3809.132,,,2019-09-04 11:37:31,2019-09-04 11:37:33,2.552s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Chrome 76.0.3809.132,,,2019-09-04 11:37:33,2019-09-04 11:37:39,6.120s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 76.0.3809.132,,,2019-09-04 11:37:39,2019-09-04 11:37:43,3.665s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Chrome 76.0.3809.132,,,2019-09-04 11:37:43,2019-09-04 11:37:46,3.160s,PASSED
+maximizeWindow(),Chrome 76.0.3809.132,,,2019-09-04 11:37:46,2019-09-04 11:37:49,2.370s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Chrome 76.0.3809.132,,,2019-09-04 11:37:49,2019-09-04 11:37:51,2.404s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Material and Template,Chrome 76.0.3809.132,,,2019-09-04 11:37:53,2019-09-04 11:38:16,23.271s,FAILED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Chrome 76.0.3809.132,,,2019-09-04 11:37:54,2019-09-04 11:37:56,2.320s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.132,,,2019-09-04 11:37:56,2019-09-04 11:37:57,1.322s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials Templates""))",Chrome 76.0.3809.132,,,2019-09-04 11:37:57,2019-09-04 11:38:13,15.870s,FAILED
+waitForPageLoad(0),Chrome 76.0.3809.132,,,2019-09-04 11:38:13,2019-09-04 11:38:14,1.045s,PASSED
+,,,,,,,
+Test Cases/Templates/Open Templates,Chrome 76.0.3809.132,,,2019-09-04 11:38:16,2019-09-04 11:38:26,9.230s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:38:17,2019-09-04 11:38:18,1.066s,PASSED
+"click(findTestObject(""Templates/Open Templates/Burger Menu""))",Chrome 76.0.3809.132,,,2019-09-04 11:38:18,2019-09-04 11:38:20,2.288s,PASSED
+"click(findTestObject(""Templates/Open Templates/Menu_Templates""))",Chrome 76.0.3809.132,,,2019-09-04 11:38:20,2019-09-04 11:38:23,2.361s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:38:23,2019-09-04 11:38:24,1.020s,PASSED
+,,,,,,,
+Test Cases/Templates/Add_Templates,Chrome 76.0.3809.132,,,2019-09-04 11:38:26,2019-09-04 11:40:23,1m - 57.043s,FAILED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:38:26,2019-09-04 11:38:27,1.012s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Button_AddTemplate""))",Chrome 76.0.3809.132,,,2019-09-04 11:38:27,2019-09-04 11:38:30,2.526s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:38:30,2019-09-04 11:38:31,1.016s,PASSED
+"setText(findTestObject(""Templates/Add_Templates/Template_Name""), ""Retina_Test"")",Chrome 76.0.3809.132,,,2019-09-04 11:38:31,2019-09-04 11:38:34,3.414s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:38:34,2019-09-04 11:38:35,1.009s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow""))",Chrome 76.0.3809.132,,,2019-09-04 11:38:35,2019-09-04 11:38:37,2.307s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:38:37,2019-09-04 11:38:38,1.006s,PASSED
+"click(findTestObject(""Templates/Add_Templates/div_HTMLRenderingservice""))",Chrome 76.0.3809.132,,,2019-09-04 11:38:38,2019-09-04 11:38:41,2.389s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:38:41,2019-09-04 11:38:42,1.007s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd""))",Chrome 76.0.3809.132,,,2019-09-04 11:38:42,2019-09-04 11:39:15,32.903s,FAILED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:39:15,2019-09-04 11:39:16,1.008s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template""))",Chrome 76.0.3809.132,,,2019-09-04 11:39:16,2019-09-04 11:39:48,31.906s,FAILED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:39:48,2019-09-04 11:39:49,1.006s,PASSED
+"uploadFile(findTestObject(""Templates/Add_Templates/Upload_Package""), ""C:\Adzu\Template\Retina display 4.zip"")",Chrome 76.0.3809.132,,,2019-09-04 11:39:49,2019-09-04 11:39:51,2.288s,PASSED
+delay(2),Chrome 76.0.3809.132,,,2019-09-04 11:39:51,2019-09-04 11:39:53,2.007s,PASSED
+"scrollToElement(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd""), 0)",Chrome 76.0.3809.132,,,2019-09-04 11:39:53,2019-09-04 11:39:55,2.222s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd""))",Chrome 76.0.3809.132,,,2019-09-04 11:39:55,2019-09-04 11:39:59,3.610s,FAILED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:39:59,2019-09-04 11:40:00,1.006s,PASSED
+"setText(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/input_Template_s2id_autogen22_search""), ""Test123"")",Chrome 76.0.3809.132,,,2019-09-04 11:40:00,2019-09-04 11:40:03,3.639s,FAILED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:40:03,2019-09-04 11:40:04,1.008s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/div_Test123""))",Chrome 76.0.3809.132,,,2019-09-04 11:40:04,2019-09-04 11:40:16,11.395s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:40:16,2019-09-04 11:40:17,1.007s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Button_Save""))",Chrome 76.0.3809.132,,,2019-09-04 11:40:17,2019-09-04 11:40:19,2.433s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-04 11:40:19,2019-09-04 11:40:20,1.006s,PASSED

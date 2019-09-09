@@ -1,0 +1,24 @@
+1
+00:00:00,325 --> 00:00:00,327
+1. delay(2)
+
+2
+00:00:02,389 --> 00:00:02,391
+5. click(findTestObject("Template_Variables/Add_TemplateVariable/button_Add Variable"))
+
+3
+00:00:04,859 --> 00:00:04,861
+9. waitForPageLoad(0)
+
+4
+00:00:05,882 --> 00:00:05,883
+13. setText(findTestObject("Template_Variables/Add_TemplateVariable/input_Unique Name_form-control"), "Test123")
+
+5
+00:00:09,187 --> 00:00:09,190
+17. delay(1)
+
+6
+00:00:10,201 --> 00:00:10,205
+21. click(findTestObject("Template_Variables/Add_TemplateVariable/span_Please select"))
+

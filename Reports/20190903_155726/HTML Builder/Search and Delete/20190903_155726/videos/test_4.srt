@@ -1,0 +1,24 @@
+1
+00:00:00,367 --> 00:00:00,370
+1. delay(1)
+
+2
+00:00:01,370 --> 00:00:01,373
+5. click(findTestObject("Template_Variables/Delete_Template_Variables/Template_Variable_Action Menu"))
+
+3
+00:00:03,676 --> 00:00:03,677
+9. delay(1)
+
+4
+00:00:04,684 --> 00:00:04,685
+13. click(findTestObject("Template_Variables/Delete_Template_Variables/Template_Variable_Delete_Button"))
+
+5
+00:00:07,001 --> 00:00:07,003
+17. delay(1)
+
+6
+00:00:08,009 --> 00:00:08,010
+21. click(findTestObject("Template_Variables/Delete_Template_Variables/Template_Varibale_Ok_Button"))
+

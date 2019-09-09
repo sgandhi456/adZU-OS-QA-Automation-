@@ -1,0 +1,20 @@
+1
+00:00:00,601 --> 00:00:00,609
+1. openBrowser("")
+
+2
+00:00:08,389 --> 00:00:08,391
+5. navigateToUrl("https://bt.adzu4-staging.codeworldwide.com/#Admin/Materials/Templates")
+
+3
+00:00:10,814 --> 00:00:10,816
+9. setText(findTestObject("Object Repository/Test1/Page_Templates  BaseTenants/input_Update your browser_us1"), "satinder.gandhi@codeworldwide.com")
+
+4
+00:00:13,153 --> 00:00:13,155
+13. setEncryptedText(findTestObject("Object Repository/Test1/Page_Templates  BaseTenants/input_Update your browser_pa1_1"), "yfq/9fVkW5+QvfzWq38qvg==")
+
+5
+00:00:15,057 --> 00:00:15,058
+17. click(findTestObject("Object Repository/Test1/Page_Templates  BaseTenants/button_Login"))
+

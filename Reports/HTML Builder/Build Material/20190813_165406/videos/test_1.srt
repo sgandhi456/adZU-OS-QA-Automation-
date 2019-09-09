@@ -1,0 +1,40 @@
+1
+00:00:01,683 --> 00:00:01,704
+1. openBrowser("")
+
+2
+00:00:20,846 --> 00:00:20,849
+5. navigateToUrl("https://bt.adzu4-staging.codeworldwide.com/#")
+
+3
+00:00:23,433 --> 00:00:23,436
+9. waitForElementPresent(findTestObject("Page_Base/Page_Base/login_username"), 10)
+
+4
+00:00:30,277 --> 00:00:30,280
+13. setText(findTestObject("Page_Base/Page_Base/login_username"), "satinder.gandhi@codeworldwide.com")
+
+5
+00:00:33,785 --> 00:00:33,787
+17. setText(findTestObject("Page_Base/Page_Base/login_password"), "ADZU#os123")
+
+6
+00:00:36,953 --> 00:00:36,956
+21. click(findTestObject("Login/LoginButton_STA"))
+
+7
+00:00:39,342 --> 00:00:39,343
+25. maximizeWindow()
+
+8
+00:00:40,400 --> 00:00:40,401
+29. waitForElementPresent(findTestObject("Page_Base/Home Page/Page_Base/span_Satinder"), 1)
+
+9
+00:00:42,435 --> 00:00:42,441
+33. verifyElementText(findTestObject("Page_Base/Home Page/Page_Base/span_Satinder"), "Satinder")
+
+10
+00:00:44,839 --> 00:00:44,840
+37. delay(1)
+

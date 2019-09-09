@@ -1,0 +1,88 @@
+1
+00:00:00,338 --> 00:00:00,356
+1. delay(1)
+
+2
+00:00:01,371 --> 00:00:01,373
+5. click(findTestObject("Templates/Add_Templates/Button_AddTemplate"))
+
+3
+00:00:03,814 --> 00:00:03,816
+9. delay(1)
+
+4
+00:00:04,823 --> 00:00:04,825
+13. setText(findTestObject("Templates/Add_Templates/Template_Name"), "Retina_Test")
+
+5
+00:00:08,211 --> 00:00:08,212
+17. delay(1)
+
+6
+00:00:09,217 --> 00:00:09,219
+21. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow"))
+
+7
+00:00:11,470 --> 00:00:11,471
+25. delay(1)
+
+8
+00:00:12,476 --> 00:00:12,479
+29. click(findTestObject("Templates/Add_Templates/div_HTMLRenderingservice"))
+
+9
+00:00:14,783 --> 00:00:14,784
+33. delay(1)
+
+10
+00:00:15,792 --> 00:00:15,796
+37. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd"))
+
+11
+00:00:18,125 --> 00:00:18,127
+41. delay(1)
+
+12
+00:00:19,131 --> 00:00:19,132
+45. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template"))
+
+13
+00:00:21,331 --> 00:00:21,333
+49. delay(1)
+
+14
+00:00:22,340 --> 00:00:22,341
+53. uploadFile(findTestObject("Templates/Add_Templates/Upload_Package"), "C:\Adzu\Template\Retina display 4.zip")
+
+15
+00:00:24,591 --> 00:00:24,593
+57. delay(2)
+
+16
+00:00:26,598 --> 00:00:26,599
+61. scrollToElement(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd"), 0)
+
+17
+00:00:28,760 --> 00:00:28,761
+65. delay(1)
+
+18
+00:00:29,769 --> 00:00:29,772
+69. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd"))
+
+19
+00:00:33,422 --> 00:00:33,424
+73. delay(1)
+
+20
+00:00:34,430 --> 00:00:34,432
+77. setText(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable"), "Test123")
+
+21
+00:01:06,352 --> 00:01:06,353
+81. delay(1)
+
+22
+00:01:07,359 --> 00:01:07,361
+85. click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/div_Test123"))
+

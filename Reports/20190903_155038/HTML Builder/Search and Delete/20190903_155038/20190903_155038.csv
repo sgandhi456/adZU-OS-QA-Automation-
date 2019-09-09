@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search and Delete,Chrome 76.0.3809.100,,,2019-09-03 15:50:42,2019-09-03 15:52:42,2m - 0.074s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Chrome 76.0.3809.100,Login in the application and check user element text,,2019-09-03 15:50:43,2019-09-03 15:51:14,31.280s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.100,,,2019-09-03 15:50:44,2019-09-03 15:50:53,8.797s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/#Admin/Materials/Templates"")",Chrome 76.0.3809.100,,,2019-09-03 15:50:53,2019-09-03 15:50:55,1.934s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Chrome 76.0.3809.100,,,2019-09-03 15:50:55,2019-09-03 15:51:01,5.941s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 76.0.3809.100,,,2019-09-03 15:51:01,2019-09-03 15:51:04,3.790s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:04,2019-09-03 15:51:07,2.842s,PASSED
+maximizeWindow(),Chrome 76.0.3809.100,,,2019-09-03 15:51:07,2019-09-03 15:51:10,2.365s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Chrome 76.0.3809.100,,,2019-09-03 15:51:10,2019-09-03 15:51:12,2.325s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Template Variable,Chrome 76.0.3809.100,,,2019-09-03 15:51:14,2019-09-03 15:51:27,12.881s,FAILED
+maximizeWindow(),Chrome 76.0.3809.100,,,2019-09-03 15:51:15,2019-09-03 15:51:16,1.009s,PASSED
+waitForPageLoad(10),Chrome 76.0.3809.100,,,2019-09-03 15:51:16,2019-09-03 15:51:17,1.206s,PASSED
+"waitForElementVisible(findTestObject(""Main Menu/Create Menu/a_Create""), 10)",Chrome 76.0.3809.100,,,2019-09-03 15:51:17,2019-09-03 15:51:19,2.248s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:19,2019-09-03 15:51:21,2.292s,PASSED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-09-03 15:51:21,2019-09-03 15:51:22,1.022s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials  Templates""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:22,2019-09-03 15:51:24,1.435s,FAILED
+waitForPageLoad(0),Chrome 76.0.3809.100,,,2019-09-03 15:51:24,2019-09-03 15:51:25,1.034s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Search Template Variables,Chrome 76.0.3809.100,,,2019-09-03 15:51:27,2019-09-03 15:51:42,14.869s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:51:27,2019-09-03 15:51:28,1.052s,PASSED
+"click(findTestObject(""Template_Variables/Search_TemplateVariables/Template_Variable_Filter_Toggle""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:28,2019-09-03 15:51:31,2.397s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:51:31,2019-09-03 15:51:32,1.009s,PASSED
+"setText(findTestObject(""Template_Variables/Search_TemplateVariables/TemplateVariable_Filter_Text""), ""Test123"")",Chrome 76.0.3809.100,,,2019-09-03 15:51:32,2019-09-03 15:51:35,3.420s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:51:35,2019-09-03 15:51:36,1.010s,PASSED
+"click(findTestObject(""Template_Variables/Search_TemplateVariables/Template_Variable_Hide_Button""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:36,2019-09-03 15:51:39,2.546s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:51:39,2019-09-03 15:51:40,1.007s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Delete Template Variables,Chrome 76.0.3809.100,,,2019-09-03 15:51:42,2019-09-03 15:51:58,16.231s,FAILED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:51:42,2019-09-03 15:51:43,1.007s,PASSED
+"click(findTestObject(""Template_Variables/Delete_Template_Variables/Template_Variable_Action Menu""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:43,2019-09-03 15:51:46,2.373s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:51:46,2019-09-03 15:51:47,1.009s,PASSED
+"click(findTestObject(""Template_Variables/Delete_Template_Variables/Template_Variable_Delete_Button""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:47,2019-09-03 15:51:49,2.336s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:51:49,2019-09-03 15:51:50,1.007s,PASSED
+"click(findTestObject(""Template_Variables/Delete_Template_Variables/Page_Template Variables  BaseTenants/button_Yes""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:50,2019-09-03 15:51:52,2.310s,PASSED
+"True = verifyElementText(findTestObject(""Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue""), """")",Chrome 76.0.3809.100,,,2019-09-03 15:51:52,2019-09-03 15:51:56,3.633s,FAILED
+,,,,,,,
+Test Cases/Application - Login/Logout,Chrome 76.0.3809.100,,,2019-09-03 15:51:58,2019-09-03 15:52:42,44.180s,FAILED
+"click(findTestObject(""Login/span_Satinder""))",Chrome 76.0.3809.100,,,2019-09-03 15:51:58,2019-09-03 15:52:01,2.305s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:52:01,2019-09-03 15:52:02,1.008s,PASSED
+"click(findTestObject(""Login/Logout""))",Chrome 76.0.3809.100,,,2019-09-03 15:52:02,2019-09-03 15:52:04,2.256s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 15:52:04,2019-09-03 15:52:05,1.008s,PASSED
+"click(findTestObject(""Login/Ok Button in Confirmation""))",Chrome 76.0.3809.100,,,2019-09-03 15:52:05,2019-09-03 15:52:37,32.061s,FAILED
+waitForPageLoad(1),Chrome 76.0.3809.100,,,2019-09-03 15:52:37,2019-09-03 15:52:38,1.016s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,,2019-09-03 15:52:38,2019-09-03 15:52:40,1.992s,PASSED

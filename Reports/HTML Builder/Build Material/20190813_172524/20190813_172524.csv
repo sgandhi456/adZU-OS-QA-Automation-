@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Build Material,Firefox 67.0,,,2019-08-13 17:25:28,2019-08-13 17:26:06,37.670s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Firefox 67.0,Login in the application and check user element text,,2019-08-13 17:25:28,2019-08-13 17:25:57,28.686s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-08-13 17:25:30,2019-08-13 17:25:40,9.957s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/#"")",Firefox 67.0,,,2019-08-13 17:25:40,2019-08-13 17:25:41,1.435s,PASSED
+"waitForElementPresent(findTestObject(""Page_Base/Page_Base/login_username""), 10)",Firefox 67.0,,,2019-08-13 17:25:41,2019-08-13 17:25:45,4.138s,PASSED
+"setText(findTestObject(""Page_Base/Page_Base/login_username""), ""satinder.gandhi@codeworldwide.com"")",Firefox 67.0,,,2019-08-13 17:25:45,2019-08-13 17:25:46,0.585s,PASSED
+"waitForElementPresent(findTestObject(""Page_Base/Page_Base/login_password""), 0)",Firefox 67.0,,,2019-08-13 17:25:46,2019-08-13 17:25:46,0.111s,PASSED
+"setText(findTestObject(""Page_Base/Page_Base/login_password""), ""ADZU#os123"")",Firefox 67.0,,,2019-08-13 17:25:46,2019-08-13 17:25:46,0.286s,PASSED
+"click(findTestObject(""Login/LoginButton_STA""))",Firefox 67.0,,,2019-08-13 17:25:46,2019-08-13 17:25:47,0.436s,PASSED
+maximizeWindow(),Firefox 67.0,,,2019-08-13 17:25:47,2019-08-13 17:25:47,0.045s,PASSED
+"waitForElementPresent(findTestObject(""Page_Base/Home Page/Page_Base/span_Satinder""), 1)",Firefox 67.0,,,2019-08-13 17:25:47,2019-08-13 17:25:48,1.135s,PASSED
+"verifyElementText(findTestObject(""Page_Base/Home Page/Page_Base/span_Satinder""), ""Satinder"")",Firefox 67.0,,,2019-08-13 17:25:48,2019-08-13 17:25:55,6.946s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Material and Template,Firefox 67.0,,,2019-08-13 17:25:57,2019-08-13 17:26:01,3.380s,PASSED
+"waitForElementVisible(findTestObject(""Main Menu/Create Menu/a_Create""), 1)",Firefox 67.0,,,2019-08-13 17:25:58,2019-08-13 17:25:58,0.155s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",Firefox 67.0,,,2019-08-13 17:25:58,2019-08-13 17:25:58,0.356s,PASSED
+waitForPageLoad(0),Firefox 67.0,,,2019-08-13 17:25:58,2019-08-13 17:25:58,0.140s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials  Templates""))",Firefox 67.0,,,2019-08-13 17:25:58,2019-08-13 17:25:58,0.205s,PASSED
+waitForPageLoad(0),Firefox 67.0,,,2019-08-13 17:25:58,2019-08-13 17:25:59,0.043s,PASSED
+,,,,,,,
+Test Cases/Materials/Open Material,Firefox 67.0,,,2019-08-13 17:26:01,2019-08-13 17:26:06,5.109s,PASSED
+delay(1),Firefox 67.0,,,2019-08-13 17:26:01,2019-08-13 17:26:02,1.090s,PASSED
+"click(findTestObject(""Templates/Open Templates/Burger Menu""))",Firefox 67.0,,,2019-08-13 17:26:02,2019-08-13 17:26:03,0.282s,PASSED
+"click(findTestObject(""Material/Open Material/MenuOption_Material""))",Firefox 67.0,,,2019-08-13 17:26:03,2019-08-13 17:26:03,0.088s,PASSED
+delay(1),Firefox 67.0,,,2019-08-13 17:26:03,2019-08-13 17:26:04,1.006s,PASSED

@@ -1,0 +1,20 @@
+1
+00:00:00,394 --> 00:00:00,395
+1. click(findTestObject("Login/span_Satinder"))
+
+2
+00:00:02,699 --> 00:00:02,701
+5. delay(1)
+
+3
+00:00:03,761 --> 00:00:03,764
+9. click(findTestObject("Login/Logout"))
+
+4
+00:00:06,089 --> 00:00:06,091
+13. delay(1)
+
+5
+00:00:07,098 --> 00:00:07,101
+17. click(findTestObject("Login/Ok Button in Confirmation"))
+

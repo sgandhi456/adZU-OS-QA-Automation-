@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Add_Template variable,Template and Material" time="232" tests="6" failures="2" errors="0">
+    <testsuite name="Add_Template variable,Template and Material" tests="6" failures="2" errors="0" time="232" timestamp="2019-09-04 12:59:01" hostname="gansat - NOTEEG-12802.nexus.local" id="Test Suites/HTML Builder/Add_Template variable,Template and Material">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\GANSAT\\Katalon Studio\\Adzu\\Reports\\20190904_125856\\HTML Builder\\Add_Template variable,Template and Material\\20190904_125856"/>
+            <property name="logFiles" value="C:\\Users\\GANSAT\\Katalon Studio\\Adzu\\Reports\\20190904_125856\\HTML Builder\\Add_Template variable,Template and Material\\20190904_125856\\execution0.log"/>
+            <property name="attachments" value="C:\\Users\\GANSAT\\Katalon Studio\\Adzu\\Reports\\20190904_125856\\HTML Builder\\Add_Template variable,Template and Material\\20190904_125856\\1567598490452.png, C:\\Users\\GANSAT\\Katalon Studio\\Adzu\\Reports\\20190904_125856\\HTML Builder\\Add_Template variable,Template and Material\\20190904_125856\\1567598566950.png"/>
+            <property name="hostName" value="gansat - NOTEEG-12802.nexus.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.132"/>
+            <property name="hostAddress" value="10.142.158.96"/>
+            <property name="sessionId" value="57a969ff2b9f0156596ee66732b49a3e"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Application - Login/Login - STA" classname="Test Cases/Application - Login/Login - STA" status="PASSED">
+            <system-out>2019-09-04 12:59:01 - [TEST_CASE][PASSED] - Test Cases/Application - Login/Login - STA: Test Cases/Application - Login/Login - STA&#xD;
+&#xD;
+2019-09-04 12:59:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-04 12:59:03 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-09-04 12:59:03 - [MESSAGE][INFO] - Action delay is set to 1 seconds&#xD;
+&#xD;
+2019-09-04 12:59:12 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-04 12:59:12 - [TEST_STEP][PASSED] - navigateToUrl("https://bt.adzu4-staging.codeworldwide.com/"): Navigate to 'https://bt.adzu4-staging.codeworldwide.com/' successfully&#xD;
+&#xD;
+2019-09-04 12:59:14 - [MESSAGE][PASSED] - Navigate to 'https://bt.adzu4-staging.codeworldwide.com/' successfully&#xD;
+&#xD;
+2019-09-04 12:59:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/login_username"), "satinder.gandhi@codeworldwide.com"): Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/login_username'&#xD;
+&#xD;
+2019-09-04 12:59:22 - [MESSAGE][PASSED] - Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/login_username'&#xD;
+&#xD;
+2019-09-04 12:59:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/login_password"), "yfq/9fVkW5+QvfzWq38qvg=="): Text ****** has been set on object 'Object Repository/Login/login_password'&#xD;
+&#xD;
+2019-09-04 12:59:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/login_password'&#xD;
+&#xD;
+2019-09-04 12:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test1/button_Login")): Object: 'Object Repository/Test1/button_Login' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Test1/button_Login' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-09-04 12:59:32 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-09-04 12:59:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/span_Satinder"), "Satinder"): Actual text and expected text of test object 'Object Repository/Login/span_Satinder' are matched.&#xD;
+&#xD;
+2019-09-04 12:59:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/span_Satinder' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Template Variables/Open Material and Template" classname="Test Cases/Template Variables/Open Material and Template" status="PASSED">
+            <system-out>2019-09-04 12:59:37 - [TEST_CASE][PASSED] - Test Cases/Template Variables/Open Material and Template: Test Cases/Template Variables/Open Material and Template&#xD;
+&#xD;
+2019-09-04 12:59:37 - [TEST_STEP][PASSED] - click(findTestObject("Main Menu/Create Menu/a_Create")): Object: 'Object Repository/Main Menu/Create Menu/a_Create' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Main Menu/Create Menu/a_Create' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:39 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 12:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-04 12:59:41 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 12:59:41 - [TEST_STEP][PASSED] - click(findTestObject("Main Menu/Create Menu/span_Materials Templates")): Object: 'Object Repository/Main Menu/Create Menu/span_Materials Templates' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Main Menu/Create Menu/span_Materials Templates' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:43 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 12:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-04 12:59:45 - [MESSAGE][PASSED] - Wait for page load successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Template Variables/Save_template_variables" classname="Test Cases/Template Variables/Save_template_variables" status="PASSED">
+            <system-out>2019-09-04 12:59:47 - [TEST_CASE][PASSED] - Test Cases/Template Variables/Save_template_variables: Test Cases/Template Variables/Save_template_variables&#xD;
+&#xD;
+2019-09-04 12:59:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-09-04 12:59:49 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-09-04 12:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Template_Variables/Add_TemplateVariable/button_Add Variable")): Object: 'Object Repository/Template_Variables/Add_TemplateVariable/button_Add Variable' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Template_Variables/Add_TemplateVariable/button_Add Variable' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:52 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 12:59:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-04 12:59:53 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 12:59:53 - [TEST_STEP][PASSED] - setText(findTestObject("Template_Variables/Add_TemplateVariable/input_Unique Name_form-control"), "Test123"): Text 'Test123' is set on object 'Object Repository/Template_Variables/Add_TemplateVariable/input_Unique Name_form-control'&#xD;
+&#xD;
+2019-09-04 12:59:56 - [MESSAGE][PASSED] - Text 'Test123' is set on object 'Object Repository/Template_Variables/Add_TemplateVariable/input_Unique Name_form-control'&#xD;
+&#xD;
+2019-09-04 12:59:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 12:59:57 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 12:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Template_Variables/Add_TemplateVariable/a_Please select")): Object: 'Object Repository/Template_Variables/Add_TemplateVariable/a_Please select' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Template_Variables/Add_TemplateVariable/a_Please select' is clicked on&#xD;
+&#xD;
+2019-09-04 12:59:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:00 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Template_Variables/Add_TemplateVariable/Image_Template_Type")): Object: 'Object Repository/Template_Variables/Add_TemplateVariable/Image_Template_Type' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Template_Variables/Add_TemplateVariable/Image_Template_Type' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:04 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:04 - [TEST_STEP][PASSED] - click(findTestObject("Template_Variables/Add_TemplateVariable/DataType_dd_image")): Object: 'Object Repository/Template_Variables/Add_TemplateVariable/DataType_dd_image' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Template_Variables/Add_TemplateVariable/DataType_dd_image' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:07 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Template_Variables/Add_TemplateVariable/Page_Template Variables  BaseTenants/Page_Template Variables  BaseTenants/div_Banner_Image")): Object: 'Object Repository/Template_Variables/Add_TemplateVariable/Page_Template Variables  BaseTenants/Page_Template Variables  BaseTenants/div_Banner_Image' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Template_Variables/Add_TemplateVariable/Page_Template Variables  BaseTenants/Page_Template Variables  BaseTenants/div_Banner_Image' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:10 - [TEST_STEP][PASSED] - click(findTestObject("Template_Variables/Add_TemplateVariable/button_Save")): Object: 'Object Repository/Template_Variables/Add_TemplateVariable/button_Save' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Template_Variables/Add_TemplateVariable/button_Save' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:12 - [TEST_STEP][PASSED] - getText(findTestObject("Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue"), STOP_ON_FAILURE): Text of object 'Object Repository/Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue' is: 'Test123'&#xD;
+&#xD;
+2019-09-04 13:00:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Template_Variables/Add_TemplateVariable/Grid_Name_FirstValue' is: 'Test123'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Templates/Open Templates" classname="Test Cases/Templates/Open Templates" status="PASSED">
+            <system-out>2019-09-04 13:00:16 - [TEST_CASE][PASSED] - Test Cases/Templates/Open Templates: Test Cases/Templates/Open Templates&#xD;
+&#xD;
+2019-09-04 13:00:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:18 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Open Templates/Burger Menu")): Object: 'Object Repository/Templates/Open Templates/Burger Menu' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Open Templates/Burger Menu' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Open Templates/Menu_Templates")): Object: 'Object Repository/Templates/Open Templates/Menu_Templates' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Open Templates/Menu_Templates' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:23 - [MESSAGE][PASSED] - Delayed 1 second(s)</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Templates/Add_Templates" classname="Test Cases/Templates/Add_Templates" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Templates/Add_Templates FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;&#xA;&#x9;at Add_Templates.run(Add_Templates:54)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;&#xA;&#x9;at Script1561377980272.run(Script1561377980272.groovy:54)&#xD;&#xA;&#x9;... 13 more&#xD;&#xA;)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;&#xA;&#x9;at Add_Templates.run(Add_Templates:54)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;&#xA;&#x9;... 21 more&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-09-04 13:00:26 - [TEST_CASE][FAILED] - Test Cases/Templates/Add_Templates: Test Cases/Templates/Add_Templates FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Add_Templates.run(Add_Templates:54)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Script1561377980272.run(Script1561377980272.groovy:54)&#xD;
+	... 13 more&#xD;
+)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Add_Templates.run(Add_Templates:54)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;
+	... 21 more&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-09-04 13:00:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:27 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/Button_AddTemplate")): Object: 'Object Repository/Templates/Add_Templates/Button_AddTemplate' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/Button_AddTemplate' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:31 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("Templates/Add_Templates/Template_Name"), "Retina_Test"): Text 'Retina_Test' is set on object 'Object Repository/Templates/Add_Templates/Template_Name'&#xD;
+&#xD;
+2019-09-04 13:00:34 - [MESSAGE][PASSED] - Text 'Retina_Test' is set on object 'Object Repository/Templates/Add_Templates/Template_Name'&#xD;
+&#xD;
+2019-09-04 13:00:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:35 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow")): Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:39 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/div_HTMLRenderingservice")): Object: 'Object Repository/Templates/Add_Templates/div_HTMLRenderingservice' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/div_HTMLRenderingservice' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:42 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:42 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd")): Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:45 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:45 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template")): Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:49 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:49 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Templates/Add_Templates/Upload_Package"), "C:\Adzu\Template\Retina display 4.zip"): File 'C:\Adzu\Template\Retina display 4.zip' sent to object: 'Object Repository/Templates/Add_Templates/Upload_Package'&#xD;
+&#xD;
+2019-09-04 13:00:51 - [MESSAGE][PASSED] - File 'C:\Adzu\Template\Retina display 4.zip' sent to object: 'Object Repository/Templates/Add_Templates/Upload_Package'&#xD;
+&#xD;
+2019-09-04 13:00:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:53 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd"), 0): Scroll to object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd' successfully&#xD;
+&#xD;
+2019-09-04 13:00:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-04 13:00:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd' successfully&#xD;
+&#xD;
+2019-09-04 13:00:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:56 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd")): Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd' is clicked on&#xD;
+&#xD;
+2019-09-04 13:00:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:59 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:00:59 - [TEST_STEP][FAILED] - setText(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable"), "Test123"): Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Add_Templates.run(Add_Templates:54)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Script1561377980272.run(Script1561377980272.groovy:54)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-09-04 13:01:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-09-04 13:01:32 - [MESSAGE][FAILED] - Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Add_Templates.run(Add_Templates:54)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Script1561377980272.run(Script1561377980272.groovy:54)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\GANSAT\\Katalon Studio\\Adzu\\Reports\\20190904_125856\\HTML Builder\\Add_Template variable,Template and Material\\20190904_125856\\1567598490452.png]]&#xD;
+&#xD;
+2019-09-04 13:01:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:33 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/Page_Templates  BaseTenants/div_Test123")): Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/div_Test123' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/div_Test123' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:36 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Add_Templates/Button_Save")): Object: 'Object Repository/Templates/Add_Templates/Button_Save' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Add_Templates/Button_Save' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:39 - [MESSAGE][PASSED] - Delayed 1 second(s)</system-out>
+            <system-err>2019-09-04 13:00:26 - [TEST_CASE][FAILED] - Test Cases/Templates/Add_Templates: Test Cases/Templates/Add_Templates FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Add_Templates.run(Add_Templates:54)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Script1561377980272.run(Script1561377980272.groovy:54)&#xD;
+	... 13 more&#xD;
+)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#xD;
+	at Add_Templates.run(Add_Templates:54)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Test123' of object 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable'&#xD;
+	... 21 more&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable' located by 'By.xpath: //*[@type = 'text' and contains(@id, 's2id_autogen42_search')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/Materials/Open Material" classname="Test Cases/Materials/Open Material" status="PASSED">
+            <system-out>2019-09-04 13:01:41 - [TEST_CASE][PASSED] - Test Cases/Materials/Open Material: Test Cases/Materials/Open Material&#xD;
+&#xD;
+2019-09-04 13:01:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:43 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Templates/Open Templates/Burger Menu")): Object: 'Object Repository/Templates/Open Templates/Burger Menu' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates/Open Templates/Burger Menu' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Material/Open Material/MenuOption_Material")): Object: 'Object Repository/Material/Open Material/MenuOption_Material' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Open Material/MenuOption_Material' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:48 - [MESSAGE][PASSED] - Delayed 1 second(s)</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Materials/Add Material" classname="Test Cases/Materials/Add Material" status="PASSED">
+            <system-out>2019-09-04 13:01:50 - [TEST_CASE][PASSED] - Test Cases/Materials/Add Material: Test Cases/Materials/Add Material&#xD;
+&#xD;
+2019-09-04 13:01:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:52 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Material/Add Material/Button_Add_Material")): Object: 'Object Repository/Material/Add Material/Button_Add_Material' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Add Material/Button_Add_Material' is clicked on&#xD;
+&#xD;
+2019-09-04 13:01:55 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 13:01:56 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 13:01:56 - [TEST_STEP][PASSED] - setText(findTestObject("Material/Add Material/Text_UniqueName"), "Material_Test"): Text 'Material_Test' is set on object 'Object Repository/Material/Add Material/Text_UniqueName'&#xD;
+&#xD;
+2019-09-04 13:01:59 - [MESSAGE][PASSED] - Text 'Material_Test' is set on object 'Object Repository/Material/Add Material/Text_UniqueName'&#xD;
+&#xD;
+2019-09-04 13:01:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Material/Add Material/dd_MediaChannel_Text"), 1): Object 'Object Repository/Material/Add Material/dd_MediaChannel_Text' is present&#xD;
+&#xD;
+2019-09-04 13:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/Material/Add Material/dd_MediaChannel_Text' is present&#xD;
+&#xD;
+2019-09-04 13:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Material/Add Material/dd_MediaChannel_Text")): Object: 'Object Repository/Material/Add Material/dd_MediaChannel_Text' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Add Material/dd_MediaChannel_Text' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:04 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Material/Add Material/div_Online")): Object: 'Object Repository/Material/Add Material/div_Online' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Add Material/div_Online' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:07 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Material/Add Material/Thumbnail Image"), 0): Scroll to object 'Object Repository/Material/Add Material/Thumbnail Image' successfully&#xD;
+&#xD;
+2019-09-04 13:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-04 13:02:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Material/Add Material/Thumbnail Image' successfully&#xD;
+&#xD;
+2019-09-04 13:02:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:10 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:10 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Material/Add Material/Thumbnail Image"), "C:\Adzu\ab.jpg"): File 'C:\Adzu\ab.jpg' sent to object: 'Object Repository/Material/Add Material/Thumbnail Image'&#xD;
+&#xD;
+2019-09-04 13:02:13 - [MESSAGE][PASSED] - File 'C:\Adzu\ab.jpg' sent to object: 'Object Repository/Material/Add Material/Thumbnail Image'&#xD;
+&#xD;
+2019-09-04 13:02:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:16 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Material/Add Material/Button_AddExistingTemplate")): Object: 'Object Repository/Material/Add Material/Button_AddExistingTemplate' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Add Material/Button_AddExistingTemplate' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:20 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Material/Add Material/Text_SearchTemplate"), "Retina_Test"): Text 'Retina_Test' is set on object 'Object Repository/Material/Add Material/Text_SearchTemplate'&#xD;
+&#xD;
+2019-09-04 13:02:24 - [MESSAGE][PASSED] - Text 'Retina_Test' is set on object 'Object Repository/Material/Add Material/Text_SearchTemplate'&#xD;
+&#xD;
+2019-09-04 13:02:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:25 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:25 - [TEST_STEP][PASSED] - click(findTestObject("Material/Add Material/Grid_TemplateRow")): Object: 'Object Repository/Material/Add Material/Grid_TemplateRow' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Add Material/Grid_TemplateRow' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:28 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Material/Add Material/Button_SaveTemplate")): Object: 'Object Repository/Material/Add Material/Button_SaveTemplate' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Add Material/Button_SaveTemplate' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:31 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:31 - [TEST_STEP][PASSED] - click(findTestObject("Material/Add Material/Button_SaveMaterial")): Object: 'Object Repository/Material/Add Material/Button_SaveMaterial' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Material/Add Material/Button_SaveMaterial' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:35 - [MESSAGE][PASSED] - Delayed 1 second(s)</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Application - Login/Logout" classname="Test Cases/Application - Login/Logout" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Application - Login/Logout FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;&#xA;&#x9;at Logout.run(Logout:24)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;&#xA;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xA;  (Session info: chrome=76.0.3809.132)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;&#xA;&#x9;at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;&#xA;&#x9;... 13 more&#xD;&#xA;)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;&#xA;&#x9;at Logout.run(Logout:24)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;&#xA;&#x9;... 21 more&#xD;&#xA;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xA;  (Session info: chrome=76.0.3809.132)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-09-04 13:02:37 - [TEST_CASE][FAILED] - Test Cases/Application - Login/Logout: Test Cases/Application - Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	... 21 more&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-09-04 13:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/span_Satinder")): Object: 'Object Repository/Login/span_Satinder' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Satinder' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:41 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/Logout")): Object: 'Object Repository/Login/Logout' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Logout' is clicked on&#xD;
+&#xD;
+2019-09-04 13:02:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:44 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-04 13:02:44 - [TEST_STEP][FAILED] - click(findTestObject("Login/Page_Template Variables  BaseTenants/Logout_button_Yes")): Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-09-04 13:02:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\GANSAT\\Katalon Studio\\Adzu\\Reports\\20190904_125856\\HTML Builder\\Add_Template variable,Template and Material\\20190904_125856\\1567598566950.png]]&#xD;
+&#xD;
+2019-09-04 13:02:48 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 13:02:49 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-09-04 13:02:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-09-04 13:02:51 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err>2019-09-04 13:02:37 - [TEST_CASE][FAILED] - Test Cases/Application - Login/Logout: Test Cases/Application - Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567598336873.run(TempTestSuite1567598336873.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	... 21 more&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NOTEEG-12802', ip: '10.142.158.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\GANSAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57a969ff2b9f0156596ee66732b49a3e&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-09-04 12:59:01 - [TEST_SUITE][INCOMPLETE] - Add_Template variable,Template and Material: null</system-out>
+        <system-err>2019-09-04 12:59:01 - [TEST_SUITE][INCOMPLETE] - Add_Template variable,Template and Material: null</system-err>
+    </testsuite>
+</testsuites>

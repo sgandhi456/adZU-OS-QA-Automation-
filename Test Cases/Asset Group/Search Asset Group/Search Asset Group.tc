@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Asset Group</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8d1c1ee-07ad-411c-afff-170cac3bd9d9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a15346bd-333f-4f05-bb8c-9f84ec9151dd</id>
+      <masked>false</masked>
+      <name>AssetGroup_Name</name>
+   </variable>
+</TestCaseEntity>

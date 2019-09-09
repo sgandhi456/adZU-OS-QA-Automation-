@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Add_Template variable,Template and Material",Chrome 76.0.3809.132,,,2019-09-05 10:07:59,2019-09-05 10:09:23,1m - 24.207s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Chrome 76.0.3809.132,Login in the application and check user element text,,2019-09-05 10:08:00,2019-09-05 10:08:36,36.527s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.132,,,2019-09-05 10:08:02,2019-09-05 10:08:12,10.246s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/"")",Chrome 76.0.3809.132,,,2019-09-05 10:08:12,2019-09-05 10:08:14,2.199s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Chrome 76.0.3809.132,,,2019-09-05 10:08:14,2019-09-05 10:08:22,7.674s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 76.0.3809.132,,,2019-09-05 10:08:22,2019-09-05 10:08:26,3.873s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Chrome 76.0.3809.132,,,2019-09-05 10:08:26,2019-09-05 10:08:29,2.929s,PASSED
+maximizeWindow(),Chrome 76.0.3809.132,,,2019-09-05 10:08:29,2019-09-05 10:08:31,2.800s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Chrome 76.0.3809.132,,,2019-09-05 10:08:31,2019-09-05 10:08:34,2.561s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,Chrome 76.0.3809.132,,,2019-09-05 10:08:36,2019-09-05 10:09:23,46.931s,FAILED
+"click(findTestObject(""Login/span_Satinder""))",Chrome 76.0.3809.132,,,2019-09-05 10:08:37,2019-09-05 10:08:39,2.459s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-05 10:08:39,2019-09-05 10:08:41,1.081s,PASSED
+"click(findTestObject(""Login/Logout""))",Chrome 76.0.3809.132,,,2019-09-05 10:08:41,2019-09-05 10:08:43,2.490s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-05 10:08:43,2019-09-05 10:08:44,1.007s,PASSED
+"click(findTestObject(""Login/Page_Template Variables  BaseTenants/Logout_button_Yes""))",Chrome 76.0.3809.132,,,2019-09-05 10:08:44,2019-09-05 10:09:17,33.433s,FAILED
+waitForPageLoad(1),Chrome 76.0.3809.132,,,2019-09-05 10:09:17,2019-09-05 10:09:19,1.305s,PASSED
+closeBrowser(),Chrome 76.0.3809.132,,,2019-09-05 10:09:19,2019-09-05 10:09:21,1.988s,PASSED

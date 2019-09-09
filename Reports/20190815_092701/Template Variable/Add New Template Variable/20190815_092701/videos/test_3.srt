@@ -1,0 +1,28 @@
+1
+00:00:00,338 --> 00:00:00,340
+1. maximizeWindow()
+
+2
+00:00:01,357 --> 00:00:01,358
+5. waitForPageLoad(10)
+
+3
+00:00:02,389 --> 00:00:02,390
+9. waitForElementVisible(findTestObject("Main Menu/Create Menu/a_Create"), 10)
+
+4
+00:00:04,704 --> 00:00:04,704
+13. click(findTestObject("Main Menu/Create Menu/a_Create"))
+
+5
+00:00:06,976 --> 00:00:06,978
+17. waitForPageLoad(0)
+
+6
+00:00:07,998 --> 00:00:07,999
+21. click(findTestObject("Main Menu/Create Menu/span_Materials  Templates"))
+
+7
+00:00:10,250 --> 00:00:10,253
+25. waitForPageLoad(0)
+
