@@ -1,0 +1,4 @@
+1
+00:00:00,710 --> 00:00:00,712
+1. click(findTestObject("Login/span_Satinder"))
+

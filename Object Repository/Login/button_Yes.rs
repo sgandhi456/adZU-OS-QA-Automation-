@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Logout_button_Yes</name>
+   <name>button_Yes</name>
    <tag></tag>
-   <elementGuidId>17b3399d-01b9-4e7b-af76-01a61b0cd6cf</elementGuidId>
+   <elementGuidId>fce85ffb-560d-4c96-9a79-a1868d2da225</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '
+         <value>//button[@type = 'button' and @data-qa-id = 'Button_OK' and @data-bind = 'click: dialogOK, css: okButtonCssClass' and (text() = '
                     Yes
                 ' or . = '
                     Yes
                 ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,14 +38,14 @@
       <value>btn btn-color btn-primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-qa-id</name>
       <type>Main</type>
       <value>Button_OK</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-bind</name>
       <type>Main</type>
@@ -76,7 +72,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[11]</value>
+      <value>(//button[@type='button'])[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,14 +86,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ad Gallery'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Ads'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('We', &quot;'&quot;, 're Not Quite Ready Yet')])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

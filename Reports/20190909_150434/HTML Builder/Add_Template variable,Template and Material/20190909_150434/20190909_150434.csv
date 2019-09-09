@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Add_Template variable,Template and Material",IE 11,,,2019-09-09 15:04:40,2019-09-09 15:08:44,4m - 3.821s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,IE 11,Login in the application and check user element text,,2019-09-09 15:04:41,2019-09-09 15:05:27,46.143s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-09 15:04:43,2019-09-09 15:04:53,10.433s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/"")",IE 11,,,2019-09-09 15:04:53,2019-09-09 15:04:59,5.671s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-09 15:04:59,2019-09-09 15:05:07,8.666s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-09 15:05:07,2019-09-09 15:05:12,4.522s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",IE 11,,,2019-09-09 15:05:12,2019-09-09 15:05:21,8.833s,PASSED
+maximizeWindow(),IE 11,,,2019-09-09 15:05:21,2019-09-09 15:05:22,1.085s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",IE 11,,,2019-09-09 15:05:22,2019-09-09 15:05:25,2.839s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Material and Template,IE 11,,,2019-09-09 15:05:27,2019-09-09 15:05:45,17.636s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",IE 11,,,2019-09-09 15:05:28,2019-09-09 15:05:32,4.344s,PASSED
+waitForPageLoad(0),IE 11,,,2019-09-09 15:05:32,2019-09-09 15:05:33,1.456s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials Templates""))",IE 11,,,2019-09-09 15:05:33,2019-09-09 15:05:41,7.875s,PASSED
+waitForPageLoad(0),IE 11,,,2019-09-09 15:05:41,2019-09-09 15:05:42,1.129s,PASSED
+,,,,,,,
+Test Cases/Templates/Open Templates,IE 11,,,2019-09-09 15:05:45,2019-09-09 15:05:59,13.903s,PASSED
+delay(1),IE 11,,,2019-09-09 15:05:45,2019-09-09 15:05:46,1.081s,PASSED
+"click(findTestObject(""Templates/Open Templates/Burger Menu""))",IE 11,,,2019-09-09 15:05:46,2019-09-09 15:05:50,3.949s,PASSED
+"click(findTestObject(""Templates/Open Templates/Menu_Templates""))",IE 11,,,2019-09-09 15:05:50,2019-09-09 15:05:55,5.106s,PASSED
+delay(1),IE 11,,,2019-09-09 15:05:55,2019-09-09 15:05:56,1.009s,PASSED
+,,,,,,,
+Test Cases/Templates/Add_Templates,IE 11,,,2019-09-09 15:05:59,2019-09-09 15:08:22,2m - 23.863s,FAILED
+delay(1),IE 11,,,2019-09-09 15:05:59,2019-09-09 15:06:00,1.016s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Button_AddTemplate""))",IE 11,,,2019-09-09 15:06:00,2019-09-09 15:06:05,4.410s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:05,2019-09-09 15:06:06,1.015s,PASSED
+"setText(findTestObject(""Templates/Add_Templates/Template_Name""), ""Retina_Test"")",IE 11,,,2019-09-09 15:06:06,2019-09-09 15:06:10,4.573s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:10,2019-09-09 15:06:11,1.009s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/Template Renderer_Arrow""))",IE 11,,,2019-09-09 15:06:11,2019-09-09 15:06:16,4.447s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:16,2019-09-09 15:06:17,1.009s,PASSED
+"click(findTestObject(""Templates/Add_Templates/div_HTMLRenderingservice""))",IE 11,,,2019-09-09 15:06:17,2019-09-09 15:06:21,4.466s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:21,2019-09-09 15:06:22,1.009s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/TemplateType_dd""))",IE 11,,,2019-09-09 15:06:22,2019-09-09 15:06:27,4.288s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:27,2019-09-09 15:06:28,1.005s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/Page_Templates  BaseTenants/div_Template""))",IE 11,,,2019-09-09 15:06:28,2019-09-09 15:06:32,3.980s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:32,2019-09-09 15:06:33,1.009s,PASSED
+"uploadFile(findTestObject(""Templates/Add_Templates/Upload_Package""), ""C:\Adzu\Template\Retina display 4.zip"")",IE 11,,,2019-09-09 15:06:33,2019-09-09 15:06:39,6.758s,PASSED
+delay(2),IE 11,,,2019-09-09 15:06:39,2019-09-09 15:06:41,2.012s,PASSED
+"scrollToElement(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd""), 0)",IE 11,,,2019-09-09 15:06:41,2019-09-09 15:06:44,3.051s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:44,2019-09-09 15:06:45,1.010s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/TemplateVariable_dd""))",IE 11,,,2019-09-09 15:06:45,2019-09-09 15:06:50,4.564s,PASSED
+delay(1),IE 11,,,2019-09-09 15:06:50,2019-09-09 15:06:51,1.010s,PASSED
+"setText(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/input_TemplateVariable""), ""Test123"")",IE 11,,,2019-09-09 15:06:51,2019-09-09 15:07:32,40.678s,FAILED
+delay(1),IE 11,,,2019-09-09 15:07:32,2019-09-09 15:07:33,1.013s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Page_Templates  BaseTenants/div_Test123""))",IE 11,,,2019-09-09 15:07:33,2019-09-09 15:08:12,39.790s,FAILED
+delay(1),IE 11,,,2019-09-09 15:08:12,2019-09-09 15:08:13,1.060s,PASSED
+"click(findTestObject(""Templates/Add_Templates/Button_Save""))",IE 11,,,2019-09-09 15:08:13,2019-09-09 15:08:18,4.801s,PASSED
+delay(1),IE 11,,,2019-09-09 15:08:18,2019-09-09 15:08:19,1.008s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,IE 11,,,2019-09-09 15:08:22,2019-09-09 15:08:44,21.536s,FAILED
+"click(findTestObject(""Login/span_Satinder""))",IE 11,,,2019-09-09 15:08:24,2019-09-09 15:08:28,4.556s,PASSED
+delay(1),IE 11,,,2019-09-09 15:08:28,2019-09-09 15:08:29,1.010s,PASSED
+"click(findTestObject(""Login/Logout""))",IE 11,,,2019-09-09 15:08:29,2019-09-09 15:08:33,4.275s,FAILED
+delay(1),IE 11,,,2019-09-09 15:08:33,2019-09-09 15:08:34,1.022s,PASSED
+"click(findTestObject(""Login/Page_Template Variables  BaseTenants/Logout_button_Yes""))",IE 11,,,2019-09-09 15:08:34,2019-09-09 15:08:39,4.587s,FAILED
+waitForPageLoad(1),IE 11,,,2019-09-09 15:08:39,2019-09-09 15:08:40,1.206s,PASSED
+closeBrowser(),IE 11,,,2019-09-09 15:08:40,2019-09-09 15:08:42,1.570s,PASSED

@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://bt.adzu4-staging.codeworldwide.com/')
+WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
+
+WebUI.waitForPageLoad(5)
 
 WebUI.setText(findTestObject('Login/login_username'), 'satinder.gandhi@codeworldwide.com')
 

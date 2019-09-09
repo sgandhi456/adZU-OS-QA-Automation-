@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>48f968c4-0fcc-4639-b1bd-0fc5ddfb6ed6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Template Variables/Open Material and Template</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -31,13 +31,13 @@
    <testCaseLink>
       <guid>fb34856a-d7b7-42ed-8aa3-cfb2005ad273</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Templates/Open Templates</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a7e22f78-00a1-40ae-b275-393d2ab98c1f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Templates/Add_Templates</testCaseId>
    </testCaseLink>
    <testCaseLink>

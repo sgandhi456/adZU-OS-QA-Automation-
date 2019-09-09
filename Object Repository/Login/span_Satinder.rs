@@ -6,12 +6,12 @@
    <elementGuidId>ef43c3ce-e321-4b75-bb5a-b1c899f3e870</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;menu_all&quot;)/div[@class=&quot;nav navbar-nav navbar-right dropdown user-info&quot;]/div[@class=&quot;dropdown-toggle&quot;]/span[@class=&quot;user-name&quot;][count(. | //span[@class = 'user-name' and (text() = 'Satinder' or . = 'Satinder')]) = count(//span[@class = 'user-name' and (text() = 'Satinder' or . = 'Satinder')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='menu_all']/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'user-name' and (text() = 'Satinder' or . = 'Satinder')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <value>Satinder</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search and Delete,Chrome 76.0.3809.132,,,2019-09-09 16:07:21,2019-09-09 16:08:10,49.811s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Chrome 76.0.3809.132,Login in the application and check user element text,,2019-09-09 16:07:21,2019-09-09 16:07:56,34.428s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.132,,,2019-09-09 16:07:23,2019-09-09 16:07:32,9.269s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 76.0.3809.132,,,2019-09-09 16:07:32,2019-09-09 16:07:34,2.270s,PASSED
+waitForPageLoad(5),Chrome 76.0.3809.132,,,2019-09-09 16:07:34,2019-09-09 16:07:36,1.556s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Chrome 76.0.3809.132,,,2019-09-09 16:07:36,2019-09-09 16:07:41,5.446s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 76.0.3809.132,,,2019-09-09 16:07:41,2019-09-09 16:07:45,3.673s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Chrome 76.0.3809.132,,,2019-09-09 16:07:45,2019-09-09 16:07:48,3.148s,PASSED
+maximizeWindow(),Chrome 76.0.3809.132,,,2019-09-09 16:07:48,2019-09-09 16:07:51,2.560s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Chrome 76.0.3809.132,,,2019-09-09 16:07:51,2019-09-09 16:07:54,2.956s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,Chrome 76.0.3809.132,,,2019-09-09 16:07:56,2019-09-09 16:08:10,14.662s,PASSED
+"click(findTestObject(""Login/span_Satinder""))",Chrome 76.0.3809.132,,,2019-09-09 16:07:56,2019-09-09 16:07:58,2.314s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-09 16:07:58,2019-09-09 16:08:00,1.054s,PASSED
+"click(findTestObject(""Login/Logout""))",Chrome 76.0.3809.132,,,2019-09-09 16:08:00,2019-09-09 16:08:02,2.292s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-09 16:08:02,2019-09-09 16:08:03,1.009s,PASSED
+"click(findTestObject(""Login/Page_Samsung Marketing Cloud/button_Yes""))",Chrome 76.0.3809.132,,,2019-09-09 16:08:03,2019-09-09 16:08:05,2.253s,PASSED
+waitForPageLoad(1),Chrome 76.0.3809.132,,,2019-09-09 16:08:05,2019-09-09 16:08:06,1.118s,PASSED
+closeBrowser(),Chrome 76.0.3809.132,,,2019-09-09 16:08:06,2019-09-09 16:08:08,2.031s,PASSED

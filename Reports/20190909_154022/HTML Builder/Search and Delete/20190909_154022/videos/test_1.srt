@@ -1,0 +1,28 @@
+1
+00:00:00,788 --> 00:00:00,832
+1. openBrowser("")
+
+2
+00:00:07,001 --> 00:00:07,003
+5. navigateToUrl("https://bt.adzu4-staging.codeworldwide.com/")
+
+3
+00:00:09,732 --> 00:00:09,735
+9. setText(findTestObject("Login/login_username"), "satinder.gandhi@codeworldwide.com")
+
+4
+00:00:14,748 --> 00:00:14,750
+13. setEncryptedText(findTestObject("Login/login_password"), "yfq/9fVkW5+QvfzWq38qvg==")
+
+5
+00:00:16,734 --> 00:00:16,736
+17. click(findTestObject("Object Repository/Test1/button_Login"))
+
+6
+00:00:21,685 --> 00:00:21,687
+21. maximizeWindow()
+
+7
+00:00:21,720 --> 00:00:21,722
+25. verifyElementText(findTestObject("Login/span_Satinder"), "Satinder")
+

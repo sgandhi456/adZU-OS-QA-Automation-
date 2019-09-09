@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search and Delete,IE 11,,,2019-09-09 15:40:26,2019-09-09 15:42:00,1m - 34.725s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,IE 11,Login in the application and check user element text,,2019-09-09 15:40:26,2019-09-09 15:40:51,25.181s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-09 15:40:27,2019-09-09 15:40:34,6.207s,PASSED
+"navigateToUrl(""https://bt.adzu4-staging.codeworldwide.com/"")",IE 11,,,2019-09-09 15:40:34,2019-09-09 15:40:36,2.730s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-09 15:40:36,2019-09-09 15:40:41,5.015s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-09 15:40:41,2019-09-09 15:40:43,1.986s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",IE 11,,,2019-09-09 15:40:43,2019-09-09 15:40:48,4.951s,PASSED
+maximizeWindow(),IE 11,,,2019-09-09 15:40:48,2019-09-09 15:40:48,0.035s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",IE 11,,,2019-09-09 15:40:48,2019-09-09 15:40:49,0.934s,PASSED
+,,,,,,,
+Test Cases/Template Variables/Open Template Variable,IE 11,,,2019-09-09 15:40:51,2019-09-09 15:41:00,8.769s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/a_Create""))",IE 11,,,2019-09-09 15:40:52,2019-09-09 15:40:54,1.751s,PASSED
+waitForPageLoad(0),IE 11,,,2019-09-09 15:40:54,2019-09-09 15:40:54,0.289s,PASSED
+"click(findTestObject(""Main Menu/Create Menu/span_Materials Templates""))",IE 11,,,2019-09-09 15:40:54,2019-09-09 15:40:57,3.458s,PASSED
+waitForPageLoad(0),IE 11,,,2019-09-09 15:40:57,2019-09-09 15:40:58,0.808s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,IE 11,,,2019-09-09 15:41:00,2019-09-09 15:42:00,1m - 0.242s,FAILED
+"click(findTestObject(""Login/span_Satinder""))",IE 11,,,2019-09-09 15:41:00,2019-09-09 15:41:02,1.607s,PASSED
+delay(1),IE 11,,,2019-09-09 15:41:02,2019-09-09 15:41:03,1.049s,PASSED
+"click(findTestObject(""Login/Logout""))",IE 11,,,2019-09-09 15:41:03,2019-09-09 15:41:05,1.500s,PASSED
+delay(1),IE 11,,,2019-09-09 15:41:05,2019-09-09 15:41:06,1.008s,PASSED
+"click(findTestObject(""Login/Page_Template Variables  BaseTenants/Logout_button_Yes""))",IE 11,,,2019-09-09 15:41:06,2019-09-09 15:41:57,51.411s,FAILED
+waitForPageLoad(1),IE 11,,,2019-09-09 15:41:57,2019-09-09 15:41:57,0.103s,PASSED
+closeBrowser(),IE 11,,,2019-09-09 15:41:57,2019-09-09 15:41:58,0.651s,PASSED

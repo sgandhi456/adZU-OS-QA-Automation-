@@ -2015,7 +2015,7 @@ Caused by: java.lang.IllegalArgumentException: Object is null
   <message>Start listener action : exportKatalonReports</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log><record>
+<record>
   <date>2019-09-05T09:58:55</date>
   <millis>1567673935998</millis>
   <sequence>624</sequence>
@@ -2092,3 +2092,4 @@ Caused by: java.lang.IllegalArgumentException: Object is null
   <message>Start generating PDF report folder at: C:\\Users\\GANSAT\\Katalon Studio\\Adzu\\Reports\\20190905_095711\\HTML Builder\\Search and Delete\\20190905_095711...</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log>

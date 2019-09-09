@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Search and Delete" time="94" tests="2" failures="1" errors="0">
+    <testsuite name="Search and Delete" tests="2" failures="1" errors="0" time="94" timestamp="2019-09-09 15:40:26" hostname="gansat - NOTEEG-12802.nexus.local" id="Test Suites/HTML Builder/Search and Delete">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\GANSAT\\Katalon Studio\\Adzu - Copy\\Reports\\20190909_154022\\HTML Builder\\Search and Delete\\20190909_154022"/>
+            <property name="logFiles" value="C:\\Users\\GANSAT\\Katalon Studio\\Adzu - Copy\\Reports\\20190909_154022\\HTML Builder\\Search and Delete\\20190909_154022\\execution0.log, C:\\Users\\GANSAT\\Katalon Studio\\Adzu - Copy\\Reports\\20190909_154022\\HTML Builder\\Search and Delete\\20190909_154022\\IEDriverServer.log"/>
+            <property name="attachments" value="C:\\Users\\GANSAT\\Katalon Studio\\Adzu - Copy\\Reports\\20190909_154022\\HTML Builder\\Search and Delete\\20190909_154022\\1568040117394.png"/>
+            <property name="hostName" value="gansat - NOTEEG-12802.nexus.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="IE 11"/>
+            <property name="hostAddress" value="192.168.0.12"/>
+            <property name="sessionId" value="caf036ff-f76e-4fa1-a054-26fcd66bfe57"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Application - Login/Login - STA" classname="Test Cases/Application - Login/Login - STA" status="PASSED">
+            <system-out>2019-09-09 15:40:26 - [TEST_CASE][PASSED] - Test Cases/Application - Login/Login - STA: Test Cases/Application - Login/Login - STA&#xD;
+&#xD;
+2019-09-09 15:40:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-09 15:40:28 - [MESSAGE][INFO] - Starting 'IE' driver&#xD;
+&#xD;
+2019-09-09 15:40:28 - [MESSAGE][INFO] - User set preference: ['ignoreProtectedModeSettings', 'true']&#xD;
+&#xD;
+2019-09-09 15:40:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-09-09 15:40:34 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-09 15:40:34 - [TEST_STEP][PASSED] - navigateToUrl("https://bt.adzu4-staging.codeworldwide.com/"): Navigate to 'https://bt.adzu4-staging.codeworldwide.com/' successfully&#xD;
+&#xD;
+2019-09-09 15:40:36 - [MESSAGE][PASSED] - Navigate to 'https://bt.adzu4-staging.codeworldwide.com/' successfully&#xD;
+&#xD;
+2019-09-09 15:40:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login/login_username"), "satinder.gandhi@codeworldwide.com"): Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/login_username'&#xD;
+&#xD;
+2019-09-09 15:40:41 - [MESSAGE][PASSED] - Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/login_username'&#xD;
+&#xD;
+2019-09-09 15:40:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/login_password"), "yfq/9fVkW5+QvfzWq38qvg=="): Text ****** has been set on object 'Object Repository/Login/login_password'&#xD;
+&#xD;
+2019-09-09 15:40:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/login_password'&#xD;
+&#xD;
+2019-09-09 15:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test1/button_Login")): Object: 'Object Repository/Test1/button_Login' is clicked on&#xD;
+&#xD;
+2019-09-09 15:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Test1/button_Login' is clicked on&#xD;
+&#xD;
+2019-09-09 15:40:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-09-09 15:40:48 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-09-09 15:40:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/span_Satinder"), "Satinder"): Actual text and expected text of test object 'Object Repository/Login/span_Satinder' are matched.&#xD;
+&#xD;
+2019-09-09 15:40:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/span_Satinder' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Template Variables/Open Template Variable" classname="Test Cases/Template Variables/Open Template Variable" status="PASSED">
+            <system-out>2019-09-09 15:40:51 - [TEST_CASE][PASSED] - Test Cases/Template Variables/Open Template Variable: Test Cases/Template Variables/Open Template Variable&#xD;
+&#xD;
+2019-09-09 15:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Main Menu/Create Menu/a_Create")): Object: 'Object Repository/Main Menu/Create Menu/a_Create' is clicked on&#xD;
+&#xD;
+2019-09-09 15:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Main Menu/Create Menu/a_Create' is clicked on&#xD;
+&#xD;
+2019-09-09 15:40:54 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully&#xD;
+&#xD;
+2019-09-09 15:40:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-09 15:40:54 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-09-09 15:40:54 - [TEST_STEP][PASSED] - click(findTestObject("Main Menu/Create Menu/span_Materials Templates")): Object: 'Object Repository/Main Menu/Create Menu/span_Materials Templates' is clicked on&#xD;
+&#xD;
+2019-09-09 15:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Main Menu/Create Menu/span_Materials Templates' is clicked on&#xD;
+&#xD;
+2019-09-09 15:40:57 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully&#xD;
+&#xD;
+2019-09-09 15:40:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-09 15:40:58 - [MESSAGE][PASSED] - Wait for page load successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Application - Login/Logout" classname="Test Cases/Application - Login/Logout" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Application - Login/Logout FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;&#xA;&#x9;at Logout.run(Logout:24)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;&#xA;&#x9;at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;&#xA;&#x9;... 13 more&#xD;&#xA;)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;&#xA;&#x9;at Logout.run(Logout:24)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;&#xA;&#x9;... 21 more&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-09-09 15:41:00 - [TEST_CASE][FAILED] - Test Cases/Application - Login/Logout: Test Cases/Application - Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	... 21 more&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-09-09 15:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Login/span_Satinder")): Object: 'Object Repository/Login/span_Satinder' is clicked on&#xD;
+&#xD;
+2019-09-09 15:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Satinder' is clicked on&#xD;
+&#xD;
+2019-09-09 15:41:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-09 15:41:03 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-09 15:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/Logout")): Object: 'Object Repository/Login/Logout' is clicked on&#xD;
+&#xD;
+2019-09-09 15:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Logout' is clicked on&#xD;
+&#xD;
+2019-09-09 15:41:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-09 15:41:06 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-09-09 15:41:06 - [TEST_STEP][FAILED] - click(findTestObject("Login/Page_Template Variables  BaseTenants/Logout_button_Yes")): Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-09-09 15:41:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[11]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-09-09 15:41:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\GANSAT\\Katalon Studio\\Adzu - Copy\\Reports\\20190909_154022\\HTML Builder\\Search and Delete\\20190909_154022\\1568040117394.png]]&#xD;
+&#xD;
+2019-09-09 15:41:57 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-09-09 15:41:57 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-09-09 15:41:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-09-09 15:41:58 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err>2019-09-09 15:41:00 - [TEST_CASE][FAILED] - Test Cases/Application - Login/Logout: Test Cases/Application - Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Script1564574777036.run(Script1564574777036.groovy:24)&#xD;
+	... 13 more&#xD;
+)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)&#xD;
+	at Logout.run(Logout:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568040022239.run(TempTestSuite1568040022239.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes'&#xD;
+	... 21 more&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Template Variables  BaseTenants/Logout_button_Yes' located by 'By.xpath: (//button[@type='button'])[11]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-09-09 15:40:26 - [TEST_SUITE][INCOMPLETE] - Search and Delete: null</system-out>
+        <system-err>2019-09-09 15:40:26 - [TEST_SUITE][INCOMPLETE] - Search and Delete: null</system-err>
+    </testsuite>
+</testsuites>

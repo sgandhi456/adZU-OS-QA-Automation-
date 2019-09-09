@@ -13,12 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.maximizeWindow()
-
-WebUI.waitForPageLoad(10)
-
-WebUI.waitForElementVisible(findTestObject('Main Menu/Create Menu/a_Create'), 10)
-
 WebUI.click(findTestObject('Main Menu/Create Menu/a_Create'))
 
 WebUI.waitForPageLoad(0)

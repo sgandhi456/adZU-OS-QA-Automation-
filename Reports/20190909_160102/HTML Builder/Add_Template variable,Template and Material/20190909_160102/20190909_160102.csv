@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Add_Template variable,Template and Material",Chrome 76.0.3809.132,,,2019-09-09 16:01:06,2019-09-09 16:02:27,1m - 20.319s,INCOMPLETE
+,,,,,,,
+Test Cases/Application - Login/Login - STA,Chrome 76.0.3809.132,Login in the application and check user element text,,2019-09-09 16:01:07,2019-09-09 16:01:42,35.207s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.132,,,2019-09-09 16:01:08,2019-09-09 16:01:18,10.108s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 76.0.3809.132,,,2019-09-09 16:01:18,2019-09-09 16:01:20,2.327s,PASSED
+waitForPageLoad(5),Chrome 76.0.3809.132,,,2019-09-09 16:01:20,2019-09-09 16:01:22,1.487s,PASSED
+"setText(findTestObject(""Login/login_username""), ""satinder.gandhi@codeworldwide.com"")",Chrome 76.0.3809.132,,,2019-09-09 16:01:22,2019-09-09 16:01:27,5.333s,PASSED
+"setEncryptedText(findTestObject(""Login/login_password""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 76.0.3809.132,,,2019-09-09 16:01:27,2019-09-09 16:01:31,3.754s,PASSED
+"click(findTestObject(""Object Repository/Test1/button_Login""))",Chrome 76.0.3809.132,,,2019-09-09 16:01:31,2019-09-09 16:01:35,3.491s,PASSED
+maximizeWindow(),Chrome 76.0.3809.132,,,2019-09-09 16:01:35,2019-09-09 16:01:37,2.402s,PASSED
+"verifyElementText(findTestObject(""Login/span_Satinder""), ""Satinder"")",Chrome 76.0.3809.132,,,2019-09-09 16:01:37,2019-09-09 16:01:40,2.839s,PASSED
+,,,,,,,
+Test Cases/Application - Login/Logout,Chrome 76.0.3809.132,,,2019-09-09 16:01:42,2019-09-09 16:02:27,44.597s,FAILED
+"click(findTestObject(""Login/span_Satinder""))",Chrome 76.0.3809.132,,,2019-09-09 16:01:42,2019-09-09 16:01:45,2.266s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-09 16:01:45,2019-09-09 16:01:46,1.052s,PASSED
+"click(findTestObject(""Login/Logout""))",Chrome 76.0.3809.132,,,2019-09-09 16:01:46,2019-09-09 16:01:48,2.286s,PASSED
+delay(1),Chrome 76.0.3809.132,,,2019-09-09 16:01:48,2019-09-09 16:01:49,1.009s,PASSED
+"click(findTestObject(""Login/Page_Template Variables  BaseTenants/Logout_button_Yes""))",Chrome 76.0.3809.132,,,2019-09-09 16:01:49,2019-09-09 16:02:21,32.319s,FAILED
+waitForPageLoad(1),Chrome 76.0.3809.132,,,2019-09-09 16:02:21,2019-09-09 16:02:22,1.011s,PASSED
+closeBrowser(),Chrome 76.0.3809.132,,,2019-09-09 16:02:22,2019-09-09 16:02:24,1.965s,PASSED

@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Login/Logout'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Login/Page_Template Variables  BaseTenants/Logout_button_Yes'))
+WebUI.click(findTestObject('Login/button_Yes'))
 
 WebUI.waitForPageLoad(1)
 

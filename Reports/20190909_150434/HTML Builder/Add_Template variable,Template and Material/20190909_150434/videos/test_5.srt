@@ -1,0 +1,28 @@
+1
+00:00:00,936 --> 00:00:00,937
+1. click(findTestObject("Login/span_Satinder"))
+
+2
+00:00:05,492 --> 00:00:05,494
+5. delay(1)
+
+3
+00:00:06,503 --> 00:00:06,505
+9. click(findTestObject("Login/Logout"))
+
+4
+00:00:10,779 --> 00:00:10,779
+13. delay(1)
+
+5
+00:00:11,800 --> 00:00:11,806
+17. click(findTestObject("Login/Page_Template Variables  BaseTenants/Logout_button_Yes"))
+
+6
+00:00:16,388 --> 00:00:16,388
+21. waitForPageLoad(1)
+
+7
+00:00:17,594 --> 00:00:17,595
+25. closeBrowser()
+
