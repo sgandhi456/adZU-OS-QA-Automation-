@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create Asset Group</name>
-   <tag>test</tag>
+   <name>New Test Case</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>e94570ef-36b8-4466-b942-d0fb3c4a1c7b</testCaseGuid>
+   <testCaseGuid>045f6a39-50e1-46c3-89de-1d5abf37e75f</testCaseGuid>
 </TestCaseEntity>
