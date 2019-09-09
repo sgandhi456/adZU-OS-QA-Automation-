@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Invalid Login</name>
-   <tag></tag>
+   <tag>new</tag>
    <integratedEntity>
       <productName>JIRA</productName>
       <properties>

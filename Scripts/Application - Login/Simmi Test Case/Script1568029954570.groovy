@@ -12,15 +12,4 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://bt.adzu4-staging.codeworldwide.com/#')
-
-WebUI.getUrl()
-
-WebUI.verifyMatch(new, 'https://bt.adzu4-staging.codeworldwide.com/#', false)
-
-WebUI.closeBrowser()
 
